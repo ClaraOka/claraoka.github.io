@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'eczarregular';
+    src: url('./typo/eczar-regular-webfont.woff2') format('woff2'),
+         url('./typo/eczar-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'eczarmedium';
+    src: url('./typo/eczar-medium-webfont.woff2') format('woff2'),
+         url('./typo/eczar-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html *{
+  box-sizing: border-box;    /* la taille des images est determnée par ses bordures*/
+}
+
+
+body{
+  padding: 30px;
+  width: 1500px;
+}
+
+
+.titre {
+  font-family: 'eczarregular',serif;
+  font-size: 1.7em;
+  font-weight: 500;
+  color: black;
+  position: fixed;
+}
+
+
+div.liste{
+  font-family: 'eczarmedium', serif;
+
+  font-size: 17px;
+  line-height: 1.5em;
+  color: black;
+  text-decoration: none ;
+  margin-top: 70px;
+  position: fixed;
+  text-align: right;
+  left:0;
+  width:18%;
+}
+
+
+a {
+  color : black;
+  /*font-weight: 500;*/
+  text-decoration : none ;
+}
+
+.liste a::after
+{
+  margin-left:.5ch;
+  content:"☜";
+}
+
+
+a:hover {
+  color : green;
+  }
+
+
+h4 {
+  font-family: 'eczarregular', serif;
+  font-size: 1em;
+  font-weight: 500;
+  color : black;
+}
+
+
+#projects{
+  width: 79.2%;
+  margin-left:17.2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+#projects figure {
+  padding-top: 75px;
+  margin-bottom: 40px;
+}
+
+span.clear{
+  clear:both;
+  height:1px;
+  width: 100%;
+  content:"";
+  display: table;
+}
+
+#projects img {
+    height: 530px; /*hauteur*/
+    width : auto;
+    max-height: 500px;
+    max-width: auto;
+  }
+
+  #projects p{
+    float: right;
+    font-family: 'eczarregular', serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: black;
+    max-width: 300px;
+    margin-left: 30px;
+  }
+
+
+
+main {
+  color : black;
+  font-family: 'eczarregular', serif;
+  font-size: 15px;
+  line-height: 20px;
+  max-width: 800px;
+  margin-top: 72px;
+  margin-left: 250px;
+}
+
+
+main a {
+  font-family: 'eczarmedium', serif;
+}
+
+ul.liste-images
+{
+  float:left;
+}
+
+li.liste-images-item
+{
+  display: none;
+}
+
+li.liste-images-item.active
+{
+  display: block;
+}
+
+.suivant
+{
+  cursor: pointer;
+}
+
+.suivant:hover {
+  color : green;
+  }
