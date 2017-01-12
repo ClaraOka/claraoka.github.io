@@ -104,7 +104,12 @@ span.clear{
     width : auto;
     max-height: 500px;
     max-width: auto;
+
   }
+
+#projects  img:hover{
+  cursor: url('curseur.png'), pointer;
+}
 
   #projects p{
     float: right;
