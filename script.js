@@ -8,7 +8,7 @@
       $liste.css({width:$liste.find('li.active img').width()});
       var nombreImages = $liste.find('li').length;
 
-      $(this).find('.suivant').on('click',function(e){
+      $(this).find('.liste-images').on('click',function(e){
         var $activeLi = $liste.find('.active');
         var nb = $liste.find('li').index($activeLi);
         var target = 0;
