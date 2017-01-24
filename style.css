@@ -130,7 +130,7 @@ span.clear{
     color: black;
     max-width: 350px;
     margin-left: 30px;
-  /*  margin-left: calc(10px + 4vw);*/
+   margin-left: calc(10px + 4vw);
   }
 
 
