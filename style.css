@@ -33,7 +33,7 @@ body{
 .titre {
   font-family: 'eczarregular',serif;
   font-size: 1.7em;
-  font-size: calc(1px + 2.03vw);
+  /*font-size: calc(1px + 2.03vw);*/
   font-weight: 500;
   color: black;
   position: fixed;
@@ -43,16 +43,16 @@ body{
 div.liste{
   font-family: 'eczarmedium', serif;
   font-size: 17px;
-  font-size: calc(4px + 1vw);
+  /*font-size: calc(4px + 1vw);*/
   line-height: 1.5em;
   color: black;
   text-decoration: none ;
   margin-top: 70px;
-  margin-top: calc(15px + 4vw);
+  /*margin-top: calc(15px + 4vw);*/
   position: fixed;
   text-align: right;
   /*left:0;*/
-  width:16%;
+  width:200px;
 /*  margin-left: 125px;*/
 }
 
@@ -86,7 +86,7 @@ h4 {
 #projects{
   width: 100%;
   margin-left:17.2%;
-  margin-left: calc(5px + 19vw);
+  /*margin-left: calc(5px + 19vw);*/
   display: flex;
   flex-wrap: wrap;
 }
@@ -94,9 +94,9 @@ h4 {
 
 #projects figure {
   padding-top: 75px;
-  padding-top: calc(5px + 5vw);
+  /*padding-top: calc(5px + 5vw);*/
   margin-bottom: 40px;
-  margin-bottom: calc(5px + 5vw);
+  /*margin-bottom: calc(5px + 5vw);*/
 }
 
 span.clear{
@@ -112,7 +112,7 @@ span.clear{
     width : auto;
     max-height: 500px;
     max-width: auto;
-    height: calc(80px + 30vw);
+    /*height: calc(80px + 30vw);*/
 
   }
 
@@ -121,16 +121,16 @@ span.clear{
 }
 
   #projects p{
-    float: right;
+    float: left;
     font-family: 'eczarregular', serif;
     font-size: 14px;
-    font-size: calc(1px + 1vw);
+    /*font-size: calc(1px + 1vw);*/
     line-height: 20px;
-    line-height: calc(8px + 1vw);
+    /*line-height: calc(8px + 1vw);*/
     color: black;
     max-width: 350px;
     margin-left: 30px;
-   margin-left: calc(10px + 4vw);
+   /*margin-left: calc(10px + 4vw);*/
   }
 
 
