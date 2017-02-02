@@ -2,10 +2,8 @@
 
   $(window).on('load',function(){
     $('#projects figure').each(function(index){
-
       var $projet = $(this);
       var $liste = $projet.find('.liste-images');
-      $liste.css({width:$liste.find('li.active img').width()});
       var nombreImages = $liste.find('li').length;
 
       $(this).find('.liste-images').on('click',function(e){
