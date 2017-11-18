@@ -16,6 +16,15 @@
 
 }
 
+@font-face {
+    font-family: 'eczarbold';
+    src: url('./typo/eczar-bold-webfont.woff2') format('woff2'),
+         url('./typo/eczar-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+
+}
+
 
 
 
@@ -36,7 +45,7 @@ body{
 
 
 .titre {
-  font-family: 'eczarregular',serif;
+  font-family: 'eczarmedium',serif;
   font-size: 1.7em;
   /*font-size: calc(1px + 2.03vw);*/
   font-weight: 500;
@@ -81,7 +90,7 @@ a:hover {
 
 
 h4 {
-  font-family: 'eczarregular', serif;
+  font-family: 'eczarbold', serif;
   font-size: 1em;
   font-weight: 500;
   color : black;
@@ -142,7 +151,7 @@ span.clear{
 
 main {
   color : black;
-  font-family: 'eczarregular', serif;
+  font-family: 'eczarmedium', serif;
   font-size: 15px;
   line-height: 20px;
   max-width: 800px;
@@ -151,8 +160,15 @@ main {
 }
 
 
+
 main a {
-  font-family: 'eczarmedium', serif;
+  font-family: 'eczarbold', serif;
+
+}
+
+
+.compteur{
+  font-family: 'eczarbold';
 }
 
 ul.liste-images
