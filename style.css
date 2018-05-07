@@ -45,7 +45,7 @@ body{
 
 
 .titre {
-  font-family: 'eczarmedium',serif;
+  font-family: 'BioRhyme Expanded',serif;
   font-size: 1.7em;
   /*font-size: calc(1px + 2.03vw);*/
   font-weight: 500;
@@ -55,7 +55,7 @@ body{
 
 
 div.liste{
-  font-family: 'eczarmedium', serif;
+  font-family: 'BioRhyme', serif;
   font-size: 17px;
   /*font-size: calc(4px + 1vw);*/
   line-height: 1.5em;
@@ -78,7 +78,7 @@ a {
 }
 
 p a{
-  font-family: 'eczarmedium', serif;
+  font-family: 'BioRhyme Expanded', serif;
 
   /*font-weight: 500;*/
   text-decoration : none ;
@@ -92,12 +92,11 @@ p a{
 
 
 a:hover {
-  color : green;
   }
 
 
 h4 {
-  font-family: 'eczarbold', serif;
+  font-family: 'BioRhyme Expanded', serif;
   font-size: 1em;
   font-weight: 500;
   color : black;
@@ -161,7 +160,7 @@ main {
   font-family: 'eczarregular', serif;
   font-size: 15px;
   line-height: 20px;
-  max-width: 800px;
+  max-width: 1000px;
   margin-top: 72px;
   margin-left: 250px;
 }
@@ -169,7 +168,7 @@ main {
 
 
 main a {
-  font-family: 'eczarmedium', serif;
+  font-family: 'BioRhyme Expanded', serif;
 
 }
 
