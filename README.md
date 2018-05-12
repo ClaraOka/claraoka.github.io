@@ -1,2 +1,2 @@
-# claraok.bithub.io
+# claraok.github.io
 site pro — clara choulet
