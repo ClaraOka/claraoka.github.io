@@ -179,6 +179,8 @@ overflow: hidden;
 
  .notes_figure p {
    position: absolute;
+   left: 0;
+
    color: white;
    font-family: 'brillroman';
    font-size: 10pt;
