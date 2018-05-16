@@ -179,7 +179,6 @@ overflow: hidden;
 
  .notes_figure p {
    position: absolute;
-   left: 0;
    color: white;
    font-family: 'brillroman';
    font-size: 10pt;
@@ -241,7 +240,7 @@ div#tooltip {
   margin:5px;
   font-family: 'brillroman';
   z-index: 1000;
-  width: 100px;
+  width: 120px;
   font-size: 8pt;
   line-height: 10pt;
   color: white;
