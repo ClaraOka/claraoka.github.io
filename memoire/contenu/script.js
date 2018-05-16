@@ -1,74 +1,143 @@
-window.addEventListener('load', function() {
-  var notes = Array.prototype.slice.call(document.querySelectorAll('.notes p'));
-  var note = notes[0];
+window.addEventListener('load', function () {
+    /**
+     * Références dans le texte
+     * @type {NodeListOf<Element>}
+     */
+    var refNodes = document.querySelectorAll('[data-is]');
 
-  var cibles = Array.prototype.slice.call(document.querySelectorAll('[data-is]'));
-  var cible = cibles[0];
+    /**
+     * Références dans le texte, sous forme de tableau
+     * @type {Element[]}
+     */
+    var refList = Array.prototype.slice.call(refNodes);
+    if (refList.length === 0) return;
 
-  var get_cible = function(n) {
-    var c = n.getAttribute('data-for');
-    return document.querySelector('[data-is="'+ c +'"]');
-  }
+    /**
+     * Première référence
+     */
+    var firstRef = refList[0];
 
-  var get_note = function(cible) {
-    var note = cible.getAttribute('data-is');
-    return document.querySelector('[data-for="'+ note +'"]');
-  }
+    /**
+     * Pour une référence dans le texte, renvoie l'élément note
+     * @param {Element} ref
+     * @returns {Element | null}
+     */
+    function getNote(ref) {
+        var noteId = ref.getAttribute('data-is');
+        return document.querySelector('[data-for="' + noteId + '"]');
+    }
 
-  var get_note_pos = function(n) {
-    return (document.documentElement.scrollTop + get_cible(n).getBoundingClientRect().top);
-  };
+    /**
+     * Pour une référence dans le texte, renvoie sa position en Y
+     * @param {Element} ref
+     * @returns {number}
+     */
+    function getRefPosition(ref) {
+        return (document.documentElement.scrollTop + ref.getBoundingClientRect().top);
+    }
 
-  var get_cible_pos = function(cible) {
-    return (document.documentElement.scrollTop + cible.getBoundingClientRect().top);
-  };
+    /**
+     * Position visitée précédemment
+     * @type {number}
+     */
+    var previousPosition = 0;
 
-  var prev_pos = 0;
-  var texte = document.querySelector('section.texte');
+    /**
+     * Drapeau : est-on en train de positionner ?
+     * @type {boolean}
+     */
+    var pendingPositioningWork = false;
 
-  var check_interval = setInterval(position_notes, 200);
+    var isFigure = new RegExp('figure');
+    var isNote = new RegExp('note');
 
-  var positioning = false;
-
-  function position_notes() {
-    var pos = get_cible_pos(cible);
-    if (Math.abs(pos - prev_pos) < 5) return;
-    if (positioning) return;
-    positioning = true;
-    var hauteur_cible = 0;
-    var hauteur_cible_precedente = 0;
-    var hauteur_bloc = 0;
-    var note_precedente = null;
-    var retenue_precedente = 0;
-    clearInterval(check_interval);
-    var old_scroll = document.documentElement.scrollTop;
-    document.documentElement.scrollTo(0,0);
-
-    cibles.forEach(function(cible, index) {
-        hauteur_cible_precedente = hauteur_cible;
-        var position = cible.getBoundingClientRect().top;
-        var note = get_note(cible);
-        hauteur_cible = position;
-
-        if (note_precedente) {
-          hauteur_bloc = note_precedente.getBoundingClientRect().height;
-          console.log(hauteur_bloc, cible);
-          var decalage = (hauteur_cible - hauteur_cible_precedente) - hauteur_bloc;
-          if (decalage < 0) {
-            retenue_precedente = Math.abs(decalage) + 20;
-            position += retenue_precedente;
-          }
+    /**
+     * Il me semble qu'avec la gestion des hauteurs qu'on a ajouté
+     * il devient important de signaler, à la fois dans les notes & les figures
+     * leur numéro
+     * sinon c'est le bordel
+     */
+    function annotateNotes() {
+      var buf = '';
+      refList.forEach(function (ref) {
+        var note = getNote(ref); // la note que ça concerne
+        var s = document.createElement('span');
+        var src = note.getAttribute('data-for');
+        if (isFigure.test(src)) {
+          buf = ('fig.' + src).replace('figure', '');
         }
+        if (isNote.test(src)) {
+          buf = (src + '.').replace('note', '');
+        }
+        buf = buf.split('et').join(' & ');
+        buf = buf + ' ';
+        s.innerText = buf;
+        note.prepend(s);
+      });
+    }
 
-        hauteur_cible += retenue_precedente;
-        note.style.top = position + 'px';
-        note_precedente = note;
+    /**
+     * Le gros du travail
+     */
+    function layoutNotes() {
+        var position = getRefPosition(firstRef);
+        /**
+         * Si moins de 5px de différence avec la valeur précédente
+         * on laisse tomber, pas la peine de repositionner tout
+         */
+        if (Math.abs(position - previousPosition) < 5) return;
+        if (pendingPositioningWork) return;
+
+        pendingPositioningWork = true;
+        var refPositionY = 0;
+        var previousRefPositionY = 0;
+        var blockHeight = 0;
+        var previousNote = null;
+        var remainder = 0;
+        /**
+         * On remonte en haut, en gardant la position en mémoire
+         */
+        var previousScrollPosition = document.documentElement.scrollTop;
+        document.documentElement.scrollTo(0, 0);
+
+        /**
+         * Pour chaque ref
+         */
+        refList.forEach(function (ref) {
+            previousRefPositionY = refPositionY; // la position précédente est conservée
+            var position = ref.getBoundingClientRect().top; // la position de la ref actuelle
+            var note = getNote(ref); // la note que ça concerne
+            refPositionY = position;
+            if (previousNote) { // si on a une note précédente de laquelle tenir compte
+                blockHeight = previousNote.getBoundingClientRect().height; // on regarde sa hauteur
+                var offset = (refPositionY - previousRefPositionY) - blockHeight; // si elle est plus grande que la distance
+                remainder = offset < 0 ? (Math.abs(offset) + 20) : 0;             // entre la ref précédente et l'actuelle
+                position += remainder;                                            // on décale l'actuelle d'autant, + 20px
+            }
+            refPositionY += remainder; // mais sinon, on remet cette retenue à zéro
+            note.style.top = position + 'px';
+            previousNote = note;
+        });
+
+        /**
+         * On ramène au scroll d'origine
+         */
+        document.documentElement.scrollTo(0, previousScrollPosition);
+        previousPosition = position;
+        pendingPositioningWork = false;
+    }
+
+    /**
+     * Que l'on déclenche une première fois
+     */
+    annotateNotes();
+    layoutNotes();
+
+    /**
+     * Et que l'on déclenchera 200ms après un redimensionnement si l'on est
+     * pas déjà en train de faire ce taf
+     */
+    window.addEventListener('resize', function () {
+        setTimeout(layoutNotes, 200);
     });
-
-    document.documentElement.scrollTo(0,old_scroll);
-    prev_pos = pos;
-    positioning = false;
-  };
-
-  window.addEventListener('resize', function() { setTimeout(position_notes, 200); });
 });
