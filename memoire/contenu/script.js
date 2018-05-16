@@ -61,6 +61,7 @@ window.addEventListener('load', function () {
       var buf = '';
       refList.forEach(function (ref) {
         var note = getNote(ref); // la note que ça concerne
+        if (!note) return;
         var s = document.createElement('span');
         var src = note.getAttribute('data-for');
         if (isFigure.test(src)) {
@@ -115,8 +116,10 @@ window.addEventListener('load', function () {
                 position += remainder;                                            // on décale l'actuelle d'autant, + 20px
             }
             refPositionY += remainder; // mais sinon, on remet cette retenue à zéro
-            note.style.top = position + 'px';
-            previousNote = note;
+            if (note) {
+                note.style.top = position + 'px';
+                previousNote = note;
+            }
         });
 
         /**
