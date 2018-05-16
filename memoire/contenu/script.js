@@ -64,12 +64,8 @@ window.addEventListener('load', function () {
         if (!note) return;
         var s = document.createElement('span');
         var src = note.getAttribute('data-for');
-        if (isFigure.test(src)) {
-          buf = ('fig.' + src).replace('figure', '');
-        }
-        if (isNote.test(src)) {
-          buf = (src + '.').replace('note', '');
-        }
+        if (!isNote.test(src)) return;
+        buf = (src + '.').replace('note', '');
         buf = buf.split('et').join(' & ');
         buf = buf + ' ';
         s.innerText = buf;
