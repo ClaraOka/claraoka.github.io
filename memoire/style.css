@@ -39,15 +39,14 @@ background-color: transparent;
 
 ::-webkit-scrollbar-thumb:vertical {
 height: 10px;
-background-color: rgb(23,133,65);
+background-color: rgb(130,220,140);
 border: 0px ;
 -webkit-border-radius: 0px;
 }
 
 section {
   height: 90vh;
-  background:  rgb(23,133,65);
-  /*background:  rgb(128,140,199);*/
+  background:  rgb(70,110,190);
   padding: 1em;
 }
 

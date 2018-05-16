@@ -74,7 +74,7 @@ body{
 
  ::-webkit-scrollbar-thumb:horizontal {
  height: 10px;
- background-color: rgb(23,133,65);
+ background-color: rgb(130,220,140);
  border: 0px ;
  -webkit-border-radius: 0px;
  }
@@ -83,6 +83,7 @@ body{
  .ressources{
    margin:0px;
    padding: 0px;
+   overflow: scroll;
  }
 
 
@@ -94,8 +95,8 @@ body{
  	padding: 0;
  	line-height: 1;
   width: 2800px;
-  border-top: 1px gray ridge;
-  opacity:0.1;
+  border-top: 1px solid rgb(130,220,140);
+  opacity:0.3;
  }
 
 .ligne_verticale {
@@ -103,8 +104,8 @@ body{
   margin: 0;
  	padding: 0;
   height:2850px;
-  border-left:1px solid gray;
-  opacity: 0.1;
+  border-left:1px solid rgb(130,220,140);
+  opacity: 0.3;
 }
 
 h1{  /* ressources à...*/
@@ -115,7 +116,7 @@ h1{  /* ressources à...*/
    height: 100%;
    font-family: 'brillroman';
    font-size: 12pt;
-   color: rgb(23,133,65);
+   color: rgb(70,110,190);
    overflow: hidden;
 }
 
@@ -131,14 +132,14 @@ section.checkboxes {
  z-index: 900;
  font-family: 'brillroman';
  font-size: 12pt;
- color: rgb(23,133,65);
+ color: rgb(70,110,190);
  overflow: hidden;
 }
 
 h4{             /* A B C D E F G //et// 1 2 3 4 5 6 7 ...*/
   position:absolute;
      font-family: 'biorhyme_expandedregular';
-     color: rgb(23,133,65);
+     color: rgb(70,110,190);
      overflow: hidden;
 }
 
