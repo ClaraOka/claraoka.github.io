@@ -117,6 +117,7 @@ h4 {
   /*padding-top: calc(5px + 5vw);*/
   margin-bottom: 40px;
   /*margin-bottom: calc(5px + 5vw);*/
+  width: 100%;
 }
 
 span.clear{
