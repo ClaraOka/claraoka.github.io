@@ -138,7 +138,7 @@ span.clear{
   }
 
 #projects  img:hover{
-  cursor: url('curseur.png'), crosshair;
+  cursor: e-resize;
 }
 
   #projects p{
@@ -159,8 +159,8 @@ span.clear{
 main {
   color : black;
   font-family: 'eczarregular', serif;
-  font-size: 15px;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 20px;
   max-width: 1000px;
   margin-top: 72px;
   margin-left: 250px;
@@ -170,6 +170,8 @@ main {
 
 main a {
   font-family: 'BioRhyme Expanded', serif;
+  font-size: 18px;
+
 
 }
 
