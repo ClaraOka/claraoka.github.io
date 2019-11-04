@@ -4,7 +4,6 @@
          url('./typo/eczar-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -13,7 +12,6 @@
          url('./typo/eczar-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -22,9 +20,16 @@
          url('./typo/eczar-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: bold;
-
 }
 
+@font-face {
+    font-family: 'karla-regular';
+    src: url('karla-regular-webfont.woff2') format('woff2'),
+         url('karla-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
@@ -39,14 +44,14 @@ html *{
 
 
 body{
-  padding: 30px;
+  padding: 20px;
   width: 1500px;
 }
 
 
 .titre {
   font-family: 'BioRhyme Expanded',serif;
-  font-size: 1.7em;
+  font-size: 1.68em;
   /*font-size: calc(1px + 2.03vw);*/
   font-weight: 500;
   color: black;
@@ -55,18 +60,16 @@ body{
 
 
 div.liste{
-  font-family: 'BioRhyme', serif;
+  font-family: 'karla-regular', serif;
   font-size: 17px;
-  /*font-size: calc(4px + 1vw);*/
   line-height: 1.5em;
   color: black;
   text-decoration: none ;
   margin-top: 70px;
-  /*margin-top: calc(15px + 4vw);*/
   position: fixed;
   text-align: right;
   /*left:0;*/
-  width:200px;
+  width:110px;
 /*  margin-left: 125px;*/
 }
 
@@ -78,7 +81,7 @@ a {
 }
 
 p a{
-  font-family: 'BioRhyme Expanded', serif;
+  font-family: 'karla-regular', serif;
   font-size: 13px;
   line-height: 20px;
   text-decoration : none ;
@@ -105,8 +108,7 @@ h4 {
 
 #projects{
   width: 100%;
-  margin-left:17.2%;
-  /*margin-left: calc(5px + 19vw);*/
+  margin-left:10%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -114,9 +116,7 @@ h4 {
 
 #projects figure {
   padding-top: 75px;
-  /*padding-top: calc(5px + 5vw);*/
   margin-bottom: 40px;
-  /*margin-bottom: calc(5px + 5vw);*/
   width: 100%;
 }
 
@@ -129,11 +129,10 @@ span.clear{
 }
 
 #projects img {
-    height: 530px; /*hauteur*/
+    height: 480px; /*hauteur*/
     width : auto;
-    max-height: 500px;
+    max-height: 480px;
     max-width: auto;
-    /*height: calc(80px + 30vw);*/
 
   }
 
@@ -143,27 +142,24 @@ span.clear{
 
   #projects p{
     float: left;
-    font-family: 'eczarregular', serif;
+    font-family: 'karla-regular', serif;
     font-size: 14px;
-    /*font-size: calc(1px + 1vw);*/
     line-height: 20px;
-    /*line-height: calc(8px + 1vw);*/
     color: black;
-    max-width: 350px;
+    max-width: 450px;
     margin-left: 30px;
-   /*margin-left: calc(10px + 4vw);*/
   }
 
 
 
 main {
   color : black;
-  font-family: 'eczarregular', serif;
-  font-size: 18px;
-  line-height: 20px;
+  font-family: 'karla-regular', serif;
+  font-size: 20px;
+  line-height: 24px;
   max-width: 1000px;
   margin-top: 72px;
-  margin-left: 250px;
+  margin-left: 180px;
 }
 
 
@@ -177,7 +173,7 @@ main a {
 
 
 .compteur{
-  font-family: 'eczarbold';
+  font-family: 'BioRhyme Expanded';
 }
 
 ul.liste-images
