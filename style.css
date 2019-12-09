@@ -1,31 +1,13 @@
-@font-face {
-    font-family: 'eczarregular';
-    src: url('./typo/eczar-regular-webfont.woff2') format('woff2'),
-         url('./typo/eczar-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'eczarmedium';
-    src: url('./typo/eczar-medium-webfont.woff2') format('woff2'),
-         url('./typo/eczar-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'eczarbold';
-    src: url('./typo/eczar-bold-webfont.woff2') format('woff2'),
-         url('./typo/eczar-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: bold;
-}
 
 @font-face {
     font-family: 'karla-regular';
     src: url('karla-regular-webfont.woff2') format('woff2'),
-         url('karla-regular-webfont.woff') format('woff');
+         url('karla-regular-webfont.woff') format('woff'),
+         url('karla-regular-webfont.eot') format('eot'),
+         url('karla-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('karla-regular-webfont.ttf') format('truetype'),
+         url('karla-regular-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -81,7 +63,7 @@ a {
 }
 
 p a{
-  font-family: 'karla-regular', serif;
+  font-family: 'karla-regular';
   font-size: 13px;
   line-height: 20px;
   text-decoration : none ;
@@ -99,7 +81,7 @@ a:hover {
 
 
 h4 {
-  font-family: 'BioRhyme Expanded', serif;
+  font-family: 'BioRhyme Expanded';
   font-size: 1em;
   font-weight: 500;
   color : black;
@@ -142,7 +124,7 @@ span.clear{
 
   #projects p{
     float: left;
-    font-family: 'karla-regular', serif;
+    font-family: 'karla-regular';
     font-size: 14px;
     line-height: 20px;
     color: black;
@@ -154,7 +136,7 @@ span.clear{
 
 main {
   color : black;
-  font-family: 'karla-regular', serif;
+  font-family: 'karla-regular';
   font-size: 20px;
   line-height: 24px;
   max-width: 1000px;
@@ -165,7 +147,7 @@ main {
 
 
 main a {
-  font-family: 'BioRhyme Expanded', serif;
+  font-family: 'BioRhyme Expanded';
   font-size: 18px;
 
 
