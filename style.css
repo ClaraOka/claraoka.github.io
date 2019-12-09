@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'karla-regular';
-    src: url('karla-regular-webfont.woff2') format('woff2'),
-         url('karla-regular-webfont.woff') format('woff'),
-         url('karla-regular-webfont.eot') format('eot'),
-         url('karla-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('karla-regular-webfont.ttf') format('truetype'),
-         url('karla-regular-webfont.svg') format('svg');
+    src: url('./typo/karla-regular-webfont.woff2') format('woff2'),
+         url('./typo/karla-regular-webfont.woff') format('woff'),
+         url('./typo/karla-regular-webfont.eot') format('eot'),
+         url('./typo/karla-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./typo/karla-regular-webfont.ttf') format('truetype'),
+         url('./typo/karla-regular-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 
