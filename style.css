@@ -13,7 +13,18 @@
 
 }
 
+@font-face {
+    font-family: 'karlaitalic';
+    src: url('../typo/karla-regularitalic-webfont.woff2') format('woff2'),
+         url('../typo/karla-regularitalic-webfont.woff') format('woff'),
+    url('../typo/karla-regularitalic-webfont.eot') format('eot'),
+    url('../typo/karla-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../typo/karla-regularitalic-webfont.ttf') format('truetype'),
+         url('../typo/karla-regularitalic-webfont.svg#karlaitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
 
+}
 
 
 html {
@@ -67,6 +78,10 @@ p a{
   font-size: 14px;
   line-height: 20px;
   text-decoration : none ;
+}
+
+p .italic{
+  font-style: italic;
 }
 
 .liste a::after
