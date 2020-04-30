@@ -1,0 +1,69 @@
+html * {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+
+html, body {
+ margin: 0;
+ width: 100%;
+ height: 100%;
+}
+
+body   {
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 15px;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+width: 15px;
+height: 15px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  {
+height: 10px;
+display: block;
+background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+height: 15px;
+background-color: rgb(130,220,140);
+border: 0px ;
+-webkit-border-radius: 0px;
+}
+
+section {
+  height: 90vh;
+  background:  rgb(70,110,190);
+  padding: 1em;
+}
+
+p{
+  color : white;
+}
+
+section.ressources {
+  height: 100vh;
+}
+
+section:nth-child(odd) {
+  background: white;
+}
+
+section iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}

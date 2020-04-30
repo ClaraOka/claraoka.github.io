@@ -137,14 +137,31 @@ span.clear{
   cursor: e-resize;
 }
 
+#projects div{
+  float: left;
+  font-family: 'karla-regular';
+  font-size: 14px;
+  line-height: 20px;
+  color: black;
+  max-width: 450px;
+  margin-left: 30px;
+
+}
+
+#projects h3{
+  /*font-family: 'BioRhyme Expanded';*/
+  font-size: 19px;
+line-height: 2.5;
+}
+
   #projects p{
-    float: left;
+    /*float: left;
     font-family: 'karla-regular';
     font-size: 14px;
     line-height: 20px;
     color: black;
     max-width: 450px;
-    margin-left: 30px;
+    margin-left: 30px;*/
   }
 
 
