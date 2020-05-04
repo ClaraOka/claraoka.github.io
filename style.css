@@ -66,9 +66,17 @@ div.liste{
 }
 
 
+#projects a {
+  color : black;
+  text-decoration : none ;
+  font-style: italic;
+
+}
+
 a {
   color : black;
   text-decoration : none ;
+
 }
 
 p a{
@@ -78,9 +86,7 @@ p a{
   text-decoration : none ;
 }
 
-p .italic{
-  font-style: italic;
-}
+
 
 .liste a::after
 {
@@ -88,10 +94,15 @@ p .italic{
   content:"☜";
 }
 
-
 a:hover {
-  font-style: italic;
+  font-style:italic;
   }
+
+
+#projects a:hover {
+  font-style:normal;
+  }
+
 
 
 h4 {
@@ -125,10 +136,11 @@ span.clear{
 }
 
 #projects img {
-    max-height: 480px;
-    max-width: auto;
+    max-width: 680px;
 
   }
+
+
 
 #projects  img:hover{
   cursor: e-resize;
@@ -231,7 +243,7 @@ li.liste-images-item.active
     }
 
   #projects img {
-      max-height: 450px;
+      max-width: 680px;
 
     }
 
