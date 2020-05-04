@@ -66,18 +66,19 @@ div.liste{
 }
 
 
-#projects a {
-  color : black;
-  text-decoration : none ;
-  font-style: italic;
-
-}
-
 a {
   color : black;
   text-decoration : none ;
 
 }
+
+a:hover {
+  font-style:italic;
+  }
+
+
+
+
 
 p a{
   font-family: 'karla-regular';
@@ -94,14 +95,6 @@ p a{
   content:"☜";
 }
 
-a:hover {
-  font-style:italic;
-  }
-
-
-#projects a:hover {
-  font-style:normal;
-  }
 
 
 
