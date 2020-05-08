@@ -27,6 +27,20 @@
 }
 
 
+@font-face {
+    font-family: 'biorhymeexpanded';
+    src: url('./typo/biorhymeexpanded-regular-webfont.woff2') format('woff2'),
+         url('./typo/biorhymeexpanded-regular-webfont.woff') format('woff'),
+    url('./typo/biorhymeexpanded-regular-webfont.eot') format('eot'),
+    url('./typo/biorhymeexpanded-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./typo/biorhymeexpanded-regular-webfont.ttf') format('truetype'),
+         url('./typo/biorhymeexpanded-regular-webfont.svg#karlaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 html {
   font-size: 16px;
 }
@@ -44,7 +58,7 @@ body{
 
 
 .titre {
-  font-family: 'BioRhyme Expanded',serif;
+  font-family: 'biorhymeexpanded',serif;
   font-size: 1.68em;
   font-weight: 500;
   color: black;
@@ -99,7 +113,7 @@ p a{
 
 
 h4 {
-  font-family: 'BioRhyme Expanded';
+  font-family: 'biorhymeexpanded';
   font-size: 1em;
   font-weight: 500;
   color : black;
@@ -174,13 +188,13 @@ main {
 
 
 main a {
-  font-family: 'BioRhyme Expanded';
+  font-family: 'biorhymeexpanded';
   font-size: 18px;
 }
 
 
 .compteur{
-  font-family: 'BioRhyme Expanded';
+  font-family: 'biorhymeexpanded';
 }
 
 ul.liste-images
@@ -375,9 +389,7 @@ main{
 margin-left:15px;
  }
 
- .titre h1{
-   text-align: center;
- }
+
 
 
   div.liste{
@@ -406,11 +418,7 @@ margin-left: 20px;
     display: none;
   }
 
-  /*.liste a::before
-  {
-    margin-right:.5ch;
-    content:"☞";
-  }*/
+
 
   #projects{
     margin-left:10px;
@@ -434,14 +442,29 @@ margin-left: 20px;
 
     }
 
-  /*  main {
-      font-size: 12px;
-      line-height: 18px;
-      max-width: 500px;
-      margin-top: 80px;
-      margin-left: 20px;
-    }*/
 
+}
+
+
+@media (max-width: 320px){
+
+  .titre {
+    font-size: 0.8em;
+ }
+
+  div.liste a{
+    margin-right:30px;
+  }
+
+  #projects{
+    margin-left:10px;
+    margin-top:50px;
+  }
+
+  #projects img {
+      max-height: 200px;
+
+    }
 
 
 
