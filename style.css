@@ -397,7 +397,7 @@ margin-left: 20px;
 }
 
 
-@media (max-width: 320px){
+@media (max-width: 420px){
 
   .titre {
     font-size: 1em;
@@ -422,6 +422,10 @@ margin-left: 20px;
       max-height: 180px;
 
     }
+
+    main{
+        margin-left: 10px;
+      }
 
 
 
