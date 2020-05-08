@@ -400,9 +400,13 @@ margin-left: 20px;
 @media (max-width: 320px){
 
   .titre {
-    font-size: 0.6em;
+    font-size: 1em;
+    line-height: 1.2em;
     margin-left:10px;
 
+ }
+ div.liste{
+   margin-left:10px;
  }
 
   div.liste a{
