@@ -401,11 +401,13 @@ margin-left: 20px;
     font-size: 1em;
     line-height: 2em;
     margin-left:10px;
+    position : inherit;
 
  }
  div.liste{
    margin-left:10px;
    margin-top: 80px;
+       position : inherit;
 
  }
 
