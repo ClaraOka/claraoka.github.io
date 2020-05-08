@@ -279,13 +279,6 @@ main{
   margin-top:45px;
 }
 
-/*main {
-  font-size: 18px;
-  line-height: 22px;
-  max-width: 800px;
-  margin-top: 45px;
-  margin-left: 180px;
-}*/
 
   }
 
@@ -315,20 +308,6 @@ main{
         flex-direction:column;
       }
 
-    /*  main {
-        font-size: 16px;
-        line-height: 20px;
-        max-width: 700px;
-        margin-top: 45px;
-        margin-left: 140px;
-      }
-
-      main a {
-        font-size: 16px;
-      }*/
-
-
-
   }
 
 
@@ -340,22 +319,10 @@ main{
 
     #projects img {
         max-height: 300px;
-
       }
 
-    /*  main {
-        font-size: 14px;
-        line-height: 18px;
-        max-width: 500px;
-        margin-top: 45px;
-        margin-left: 130px;
-      }
+}
 
-      main a {
-        font-size: 14px;
-      }*/
-
-    }
 
   @media (max-width: 600px){
 
@@ -365,21 +332,7 @@ main{
 
     #projects img {
         max-height: 250px;
-
       }
-
-      /*main {
-        font-size: 12px;
-        line-height: 18px;
-        max-width: 500px;
-        margin-top: 45px;
-        margin-left: 130px;
-      }
-
-      main a {
-        font-size: 10px;
-      }*/
-
 }
 
 @media (max-width: 540px){
@@ -388,8 +341,6 @@ main{
     font-size: 0.9em;
 margin-left:15px;
  }
-
-
 
 
   div.liste{
@@ -449,7 +400,9 @@ margin-left: 20px;
 @media (max-width: 320px){
 
   .titre {
-    font-size: 0.8em;
+    font-size: 0.6em;
+    margin-left:10px;
+
  }
 
   div.liste a{
@@ -457,12 +410,12 @@ margin-left: 20px;
   }
 
   #projects{
-    margin-left:10px;
+    margin-left:5px;
     margin-top:50px;
   }
 
   #projects img {
-      max-height: 200px;
+      max-height: 180px;
 
     }
 
