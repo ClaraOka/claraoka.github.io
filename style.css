@@ -144,9 +144,7 @@ span.clear{
 
 #projects img {
     max-width: 680px;
-
   }
-
 
 
 #projects  img:hover{
@@ -167,12 +165,7 @@ span.clear{
 
 #projects h3{
   font-size: 19px;
-line-height: 2.2em;
 }
-
-
-
-
 
 
 main {
@@ -416,7 +409,7 @@ margin-left: 20px;
 
   #projects{
     margin-left:5px;
-    margin-top:50px;
+    margin-top:80px;
   }
 
   #projects img {
