@@ -58,7 +58,7 @@ body{
 
 
 .titre {
-  font-family: 'biorhymeexpanded',serif;
+  font-family: 'biorhymeexpanded','Bio Rhyme Expanded',sans-serif;
   font-size: 1.68em;
   font-weight: 500;
   color: black;
@@ -95,7 +95,7 @@ a:hover {
 
 
 p a{
-  font-family: 'karla-regular';
+  font-family: 'karla-regular', sans-serif;
   font-size: 14px;
   line-height: 20px;
   text-decoration : none ;
@@ -113,7 +113,7 @@ p a{
 
 
 h4 {
-  font-family: 'biorhymeexpanded';
+  font-family: 'biorhymeexpanded', 'Bio Rhyme Expanded', sans-serif;
   font-size: 1em;
   font-weight: 500;
   color : black;
@@ -155,7 +155,7 @@ span.clear{
 
 #projects .texte{
   float: left;
-  font-family: 'karla-regular';
+  font-family: 'karla-regular', sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: black;
@@ -177,7 +177,7 @@ line-height: 2.2em;
 
 main {
   color : black;
-  font-family: 'karla-regular';
+  font-family: 'karla-regular', sans-serif;
   font-size: 20px;
   line-height: 24px;
   max-width: 620px;
@@ -188,13 +188,13 @@ main {
 
 
 main a {
-  font-family: 'biorhymeexpanded';
+  font-family: 'biorhymeexpanded','Bio Rhyme Expanded',sans-serif;
   font-size: 18px;
 }
 
 
 .compteur{
-  font-family: 'biorhymeexpanded';
+  font-family: 'biorhymeexpanded','Bio Rhyme Expanded',sans-serif;
 }
 
 ul.liste-images
@@ -344,7 +344,6 @@ margin-left:15px;
 
 
   div.liste{
-    font-family: 'karla-regular', serif;
     font-size: 16px;
     line-height: 1.5em;
 margin-left: 20px;
