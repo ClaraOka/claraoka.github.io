@@ -159,7 +159,7 @@ span.clear{
   color: black;
   max-width: 400px;
   margin-left: 30px;
-
+max-width:400px;
 }
 
 
@@ -215,7 +215,7 @@ li.liste-images-item.active
   color : green;
   }
 
-  @media (max-width: 1150px) {
+  @media (max-width: 1250px) {
 
 
     .titre {
@@ -248,14 +248,20 @@ li.liste-images-item.active
 
     }
 
+    #projects h3{
+margin-top:20px;
+    }
+
     #projects .texte{
         margin-left: 0px;
-          max-width: 780px;
           display: flex;
           flex-wrap: wrap;
           float:none;
+          max-width:1000px;
     }
 
+    #projects .texte_principal{
+    max-width: 400px;}
 
     #projects .texte_annexe{
     float:right;
@@ -292,9 +298,7 @@ main{
           display:block;
       }
 
-      #projects h3{
-margin-top:20px;
-      }
+
 
 
       #projects .texte_annexe{
@@ -339,6 +343,7 @@ margin-top:20px;
   .titre {
     font-size: 0.9em;
 margin-left:15px;
+
 position : relative;
 
  }
@@ -354,10 +359,8 @@ margin-left: 20px;
     display:flex;
     flex-wrap: wrap;
     justify-content:flex-start;
+
     position : relative;
-
-
-
   }
 
   div.liste a{
@@ -372,7 +375,8 @@ margin-left: 20px;
   }
 
   #projects figure{
-    padding-top: 30px;}
+    padding-top: 30px;
+  }
 
 
   #projects{
