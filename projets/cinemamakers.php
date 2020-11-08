@@ -43,7 +43,9 @@
         Ce livre retrace le parcours inspirant d’une sélection
         de cinémas qui réinventent la salle, espace de diffusion,
         en espace hybride, mêlant création, convivialité et partage,
-        sous la philosophie commune des <span class="italic">makers</span>.
+        sous la philosophie commune des <span class="italic">makers</span>.<br><br>
+
+        Édition de 200 pages, texte en français et anglais, 170x240 mm, imprimé à Escourbiac, en novembre 2019.
       </p>
   </div>
 
