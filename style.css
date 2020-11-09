@@ -862,7 +862,7 @@ font-size: 1.2em;
 
 }
 
-@media (max-width:540px){
+@media (max-width:450px){
   .soustitre{
     margin-left:35px;
     margin-right:20px;
