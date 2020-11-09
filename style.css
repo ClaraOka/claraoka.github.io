@@ -768,7 +768,7 @@ header{
 }
 
 .soustitre{
-  font-size: 0.8em;
+  font-size: 0.7em;
 
 }
 
@@ -787,6 +787,10 @@ header .apropos{
 .texte p{
   font-size: 0.9em;
   line-height: 1.3em;
+}
+
+.headerApropos .apropos{
+  font-size: 1.5em;
 }
 
 .texteApropos h3{
