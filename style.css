@@ -775,7 +775,7 @@ header{
 
 .soustitre{
   font-size: 0.7em;
-
+display: none;
 }
 
 header .apropos{
