@@ -374,6 +374,10 @@ footer{
   .liste{
   width:30%;
   }
+  .texte p{
+    font-size: 0.9em;
+    line-height: 1.3em;
+  }
 }
 
 
