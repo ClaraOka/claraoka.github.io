@@ -665,7 +665,6 @@ padding-right:10px;
 
 .soustitre{
   font-size: 1em;
-  display: none;
 }
 
 header .apropos{
@@ -742,6 +741,7 @@ footer{
 .headerApropos .apropos{
   font-size: 1.8em;
   padding-top: 10px;
+  margin-right: 20px;
 }
 
 .left{
@@ -775,7 +775,6 @@ header{
 
 .soustitre{
   font-size: 0.7em;
-display: none;
 }
 
 header .apropos{
