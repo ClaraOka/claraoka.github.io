@@ -381,6 +381,18 @@ footer{
     font-size: 0.9em;
     line-height: 1.3em;
   }
+  img{
+    max-width: 650px;
+  }
+
+  video{
+    max-width: 650px;
+  }
+  .projet img{
+    max-width: 650px;
+    margin-bottom: 30px;
+
+  }
 }
 
 
