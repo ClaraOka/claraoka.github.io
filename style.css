@@ -653,7 +653,7 @@ font-size: 1.5em;
 @media (max-width: 750px) {
 
 header{
-height:70px;
+height:80px;
 padding-top:10px;
 }
 
@@ -675,7 +675,7 @@ header .apropos{
   width: 100%;
 }
 .menu{
-  top:70px;
+  top:80px;
 }
 
 
@@ -699,7 +699,7 @@ padding-right:20px;
 .projet .texte{
   width: 80%;
   position: relative;
-  top:70px;
+  top:80px;
   padding-left:10px;
 
 }
@@ -717,7 +717,7 @@ padding-right:20px;
 .projetImage{
   width: 100%;
   position:relative;
-  top:70px;
+  top:80px;
   left:0px;
 }
 
@@ -739,7 +739,7 @@ footer{
 }
 
 .left{
-  margin-top:70px;
+  margin-top:80px;
 }
 
 
@@ -751,73 +751,12 @@ footer{
 
 header{
   padding-top: 10px;
+  height: 50px;
+}
+.menu{
+  top:50px;
 }
 
-.projet .texte{
-}
-
-.titre {
-  margin-left:10px;
-  font-size: 0.8em;
-}
-
-.soustitre{
-  font-size: 0.8em;
-
-}
-
-header .apropos{
-  font-size: 0.8em;
-  margin-right: 0px;
-}
-.projet .texte{
-  width: 100%;
-}
-
-.texte h3{
-  font-size: 1.1em;
-}
-
-.texte p{
-  font-size: 0.9em;
-  line-height: 1.3em;
-}
-
-.texteApropos h3{
-  font-size: 1.3em;
-  line-height: 0.5em;
-}
-
-.texteApropos{
-  font-size: 1em;
-  line-height: 1.3em;
-}
-
-.left{
-  width: 100%;
-  margin-top:70px;
-  padding-left:10px;
-}
-
-.left h3{
-font-size: 1.2em;
-}
-
-.contact{
-  font-size: 1.1em;
-  line-height: 1.4em;
-}
-
-
-}
-
-
-@media (max-width: 500px) {
-
-header{
-  padding-top: 20px;
-  height:50px;
-}
 
 .projet .texte{
   top:50px;
@@ -862,7 +801,7 @@ header .apropos{
 
 .left{
   width: 100%;
-  margin-top:70px;
+  margin-top:50px;
   padding-left:10px;
 }
 
@@ -874,5 +813,19 @@ font-size: 1.2em;
   font-size: 1.1em;
   line-height: 1.4em;
 }
+
+.projetImage{
+  width: 100%;
+  position:relative;
+  top:50px;
+  left:0px;
+}
+
+
+}
+
+
+@media (max-width: 500px) {
+
 
 }
