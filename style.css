@@ -354,15 +354,15 @@ footer{
 
 @media(min-width: 1350px){
   img{
-    max-width: 800px;
+    max-width: 750px;
   }
 
   video{
-    max-width: 800px;
+    max-width: 750px;
   }
 
   .projet img{
-    max-width: 800px;
+    max-width: 750px;
 
   }
 
