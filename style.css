@@ -667,9 +667,14 @@ padding-right:10px;
   font-size: 1em;
 }
 
+.headerApropos{
+  padding-top: 10px;
+}
+
 header .apropos{
   font-size: 1em;
   margin-right: 0px;
+
 }
 
 .liste{
@@ -763,6 +768,9 @@ header{
   top:60px;
 }
 
+.headerApropos{
+  padding-top: 10px;
+}
 
 .projet .texte{
   top:60px;
