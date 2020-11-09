@@ -352,7 +352,7 @@ footer{
 
 /*——————————————MEDIA—————————————————*/
 
-@media(min-width: 1500px){
+@media(min-width: 1400px){
   img{
     max-width: 800px;
   }
