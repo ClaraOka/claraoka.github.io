@@ -357,6 +357,9 @@ footer{
   img{
     max-width: 750px;
   }
+  .liste{
+  width:30%;
+  }
 
   video{
     max-width: 750px;
