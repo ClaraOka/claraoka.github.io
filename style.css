@@ -352,6 +352,23 @@ footer{
 
 /*——————————————MEDIA—————————————————*/
 
+@media(min-width: 1500px){
+  img{
+    max-width: 800px;
+  }
+
+  video{
+    max-width: 800px;
+  }
+
+  .projet img{
+    max-width: 800px;
+
+  }
+
+}
+
+
 @media (max-width: 1200px) {
   .liste{
   width:30%;
