@@ -751,15 +751,15 @@ footer{
 
 header{
   padding-top: 10px;
-  height: 50px;
+  height: 80px;
 }
 .menu{
-  top:50px;
+  top:80px;
 }
 
 
 .projet .texte{
-  top:50px;
+  top:80px;
 }
 
 .titre {
@@ -801,7 +801,7 @@ header .apropos{
 
 .left{
   width: 100%;
-  margin-top:50px;
+  margin-top:80px;
   padding-left:10px;
 }
 
@@ -817,7 +817,7 @@ font-size: 1.2em;
 .projetImage{
   width: 100%;
   position:relative;
-  top:50px;
+  top:80px;
   left:0px;
 }
 
