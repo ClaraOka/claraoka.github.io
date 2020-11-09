@@ -786,9 +786,11 @@ header{
 }
 
 header .apropos{
-  font-size: 0.8em;
+  font-size: 0.7em;
   margin-right: 0px;
 }
+
+
 .projet .texte{
   width: 100%;
 }
