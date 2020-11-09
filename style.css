@@ -768,6 +768,7 @@ header{
   top:60px;
 }
 
+
 .headerApropos{
   padding-top: 10px;
 }
@@ -783,6 +784,7 @@ header{
 
 .soustitre{
   font-size: 0.7em;
+  margin-left:15px;
 }
 
 header .apropos{
@@ -845,7 +847,8 @@ font-size: 1.2em;
 }
 
 
-@media (max-width: 500px) {
-
-
+@media (max-width:500px){
+  .soustitre{
+    margin-right:25px;
+  }
 }
