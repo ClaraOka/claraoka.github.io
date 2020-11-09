@@ -590,7 +590,7 @@ img{
 }
 
 .texte h3{
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.2em;
 
 }
@@ -651,7 +651,7 @@ display:none
 
 .left h3{
 font-weight: normal;
-font-size: 1.5em;
+font-size: 1.3em;
 }
 
 .contact{
@@ -660,7 +660,7 @@ font-size: 1.5em;
 }
 
 .droits{
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .right{
@@ -876,8 +876,7 @@ font-size: 1.2em;
     font-size: 1.5em;
   }
 
-  .headerApropos .apropos{
-  }
+
 }
 
 @media (max-width:450px){
