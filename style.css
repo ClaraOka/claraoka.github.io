@@ -476,7 +476,10 @@ width:30%;
   right:20px;
 }
 
+.menu{
+  padding-left:10px;
 
+}
 
 img{
   max-width: 550px;
@@ -856,5 +859,5 @@ font-size: 1.2em;
     margin-right:15px;
   }
 
-  
+
 }
