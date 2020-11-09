@@ -339,6 +339,7 @@ video{
 
 .italic{
   font-family: 'Epilogue-Italic';
+  font-style: italic;
 }
 
 footer{
