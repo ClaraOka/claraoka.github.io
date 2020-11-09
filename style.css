@@ -791,6 +791,7 @@ header .apropos{
 
 .headerApropos .apropos{
   font-size: 1.5em;
+  padding-top: 10px;
 }
 
 .texteApropos h3{
