@@ -737,6 +737,10 @@ video{
 footer{
   padding-left:20px;
 }
+.headerApropos .apropos{
+  font-size: 1.8em;
+  padding-top: 10px;
+}
 
 .left{
   margin-top:80px;
