@@ -876,6 +876,12 @@ font-size: 1.2em;
   }
 
 
+  @media (max-width:310px){
+    .soustitre{
+      margin-left:25px;
+      margin-right:15px;
+    }
+
 
 
 }
