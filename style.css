@@ -653,7 +653,7 @@ font-size: 1.5em;
 @media (max-width: 750px) {
 
 header{
-height:50px;
+height:70px;
 padding-top:10px;
 }
 
@@ -675,7 +675,7 @@ header .apropos{
   width: 100%;
 }
 .menu{
-  top:50px;
+  top:70px;
 }
 
 
@@ -699,7 +699,7 @@ padding-right:20px;
 .projet .texte{
   width: 80%;
   position: relative;
-  top:50px;
+  top:70px;
   padding-left:10px;
 
 }
@@ -717,7 +717,7 @@ padding-right:20px;
 .projetImage{
   width: 100%;
   position:relative;
-  top:80px;
+  top:70px;
   left:0px;
 }
 
@@ -739,7 +739,7 @@ footer{
 }
 
 .left{
-  margin-top:60px;
+  margin-top:70px;
 }
 
 
@@ -750,7 +750,7 @@ footer{
 @media (max-width: 600px) {
 
 header{
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .projet .texte{
