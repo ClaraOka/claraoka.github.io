@@ -649,71 +649,6 @@ font-size: 1.5em;
 }
 }
 
-/*
-@media (max-width: 800px) {
-
-header{background-color: red;
-}
-
-.titre{
-  font-size: 2.1em;
-}
-
-.soustitre{
-  font-size: 0.9em;
-}
-
-header .apropos{
-  font-size: 0.9em;
-}
-
-
-.liste{
-width:28%;
-}
-
-img{
-  max-width: 500px;
-}
-
-.projet{
-  padding-left:20px;
-}
-
-.texte h3{
-  font-size: 1.5em;
-}
-
-.texte p{
-  font-size: 1.2em;
-  line-height: 1.4em;
-}
-
-
-.projet .texte{
-  width: 28%;
-}
-
-.projetImage{
-  width: 70%;
-  top:150px;
-  right:30px;
-}
-
-.projet img{
-  max-width: 500px;
-}
-
-video{
-  max-width: 500px;
-}
-
-footer{
-  padding-left:20px;
-}
-
-}*/
-
 
 @media (max-width: 750px) {
 
@@ -739,6 +674,10 @@ header .apropos{
 .liste{
   width: 100%;
 }
+.menu{
+  top:50px;
+}
+
 
 .menu h3{
   font-size: 1.3em;
@@ -812,6 +751,71 @@ footer{
 
 header{
   padding-top: 20px;
+}
+
+.projet .texte{
+}
+
+.titre {
+  margin-left:10px;
+  font-size: 0.8em;
+}
+
+.soustitre{
+  font-size: 0.8em;
+
+}
+
+header .apropos{
+  font-size: 0.8em;
+  margin-right: 0px;
+}
+.projet .texte{
+  width: 100%;
+}
+
+.texte h3{
+  font-size: 1.1em;
+}
+
+.texte p{
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+.texteApropos h3{
+  font-size: 1.3em;
+  line-height: 0.5em;
+}
+
+.texteApropos{
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+.left{
+  width: 100%;
+  margin-top:70px;
+  padding-left:10px;
+}
+
+.left h3{
+font-size: 1.2em;
+}
+
+.contact{
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+
+}
+
+
+@media (max-width: 500px) {
+
+header{
+  padding-top: 20px;
   height:50px;
 }
 
@@ -870,6 +874,5 @@ font-size: 1.2em;
   font-size: 1.1em;
   line-height: 1.4em;
 }
-
 
 }
