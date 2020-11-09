@@ -773,10 +773,6 @@ header{
 }
 
 
-.headerApropos{
-  padding-top: 10px;
-}
-
 .projet .texte{
   top:60px;
 }
@@ -814,7 +810,6 @@ header .apropos{
 
 .headerApropos .apropos{
   font-size: 1.5em;
-  padding-top: 10px;
 }
 
 .texteApropos h3{
