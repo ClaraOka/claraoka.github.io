@@ -154,6 +154,12 @@ opacity: 1;
 z-index: 2;
 }
 
+.antoine:hover + .secret{
+opacity: 1;
+z-index: 2;
+}
+
+
 .jardin:hover + .secret{
 opacity: 1;
 }
