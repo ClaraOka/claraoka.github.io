@@ -359,12 +359,88 @@ footer{
 
 /*——————————————MEDIA—————————————————*/
 
+@media(min-width: 1800px){
+  img{
+    max-width: 900px;
+  }
+  .liste{
+  width:40%;
+  }
+
+  video{
+    max-width: 900px;
+  }
+
+  .projet img{
+    max-width: 900px;
+
+  }
+
+}
+
+@media(min-width: 1650px){
+  img{
+    max-width: 850px;
+  }
+  .liste{
+  width:40%;
+  }
+
+  video{
+    max-width: 850px;
+  }
+
+  .projet img{
+    max-width: 850px;
+
+  }
+
+}
+
+@media(min-width: 1550px){
+  img{
+    max-width: 800px;
+  }
+  .liste{
+  width:40%;
+  }
+
+  video{
+    max-width: 800px;
+  }
+
+  .projet img{
+    max-width: 800px;
+
+  }
+
+}
+
+@media(min-width: 1450px){
+  img{
+    max-width: 750px;
+  }
+  .liste{
+  width:40%;
+  }
+
+  video{
+    max-width: 750px;
+  }
+
+  .projet img{
+    max-width: 750px;
+
+  }
+
+}
+
 @media(min-width: 1350px){
   img{
     max-width: 700px;
   }
   .liste{
-  width:30%;
+  width:40%;
   }
 
   video{
