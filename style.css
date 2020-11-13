@@ -401,18 +401,18 @@ footer{
 
 
   img{
-    min-width: 750px;
+    min-width: 800px;
   }
   .liste{
   width:40%;
   }
 
   video{
-    min-width: 750px;
+    min-width: 800px;
   }
 
   .projet img{
-    min-width: 750px;
+    min-width: 800px;
   }
 
 }
@@ -420,23 +420,23 @@ footer{
 @media(min-width: 1550px){
 
   .image{
-    right:100px;
+    right:150px;
   }
 
 
   img{
-    min-width: 800px;
+    min-width: 850px;
   }
   .liste{
   width:40%;
   }
 
   video{
-    min-width: 800px;
+    min-width: 850px;
   }
 
   .projet img{
-    min-width: 800px;
+    min-width: 850px;
 
   }
 
@@ -447,22 +447,22 @@ footer{
 @media(min-width: 1650px){
 
   .image{
-    right:130px;
+    right:230px;
   }
 
   img{
-    min-width: 850px;
+    min-width: 900px;
   }
   .liste{
   min-width:40%;
   }
 
   video{
-    width: 850px;
+    width: 900px;
   }
 
   .projet img{
-    min-width: 850px;
+    min-width: 900px;
 
   }
 
@@ -471,22 +471,47 @@ footer{
 @media(min-width: 1800px){
 
 .image{
-  right:150px;
+  right:330px;
 }
 
   img{
-  min-width: 900px;
+  min-width: 1000px;
   }
   .liste{
   width:40%;
   }
 
   video{
-    min-width: 900px;
+    min-width: 1000px;
   }
 
   .projet img{
-    min-width: 900px;
+    min-width: 1000px;
+
+  }
+
+}
+
+
+@media(min-width: 1900px){
+
+.image{
+  right:250px;
+}
+
+  img{
+  min-width: 850px;
+  }
+  .liste{
+  width:40%;
+  }
+
+  video{
+    min-width: 850px;
+  }
+
+  .projet img{
+    min-width: 850px;
 
   }
 
