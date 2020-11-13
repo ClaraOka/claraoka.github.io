@@ -373,7 +373,7 @@ footer{
 @media (min-width: 1350px){
 
   .image{
-    right:50px;
+    right:30px;
   }
 
   img{
@@ -396,7 +396,7 @@ footer{
 @media(min-width: 1450px){
 
   .image{
-    right:80px;
+    right:130px;
   }
 
 
@@ -420,7 +420,7 @@ footer{
 @media(min-width: 1550px){
 
   .image{
-    right:150px;
+    right:180px;
   }
 
 
