@@ -289,7 +289,7 @@ line-height: 1.3em;
 
 
 .imagePortrait img{
-    max-width: 400px;
+    max-width: 300px;
 }
 
 
@@ -545,7 +545,13 @@ footer{
     margin-bottom: 30px;
 
   }
+
+  .imagePortrait img{
+      max-width: 200px;
+  }
 }
+
+
 
 
 @media (max-width: 1100px) {
