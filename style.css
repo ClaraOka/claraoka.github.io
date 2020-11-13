@@ -391,7 +391,9 @@ footer{
     min-width: 700px;
   }
 
-
+  .imagePortrait img{
+      max-width: 200px;
+  }
 
 }
 
@@ -546,9 +548,7 @@ footer{
 
   }
 
-  .imagePortrait img{
-      max-width: 200px;
-  }
+
 }
 
 
