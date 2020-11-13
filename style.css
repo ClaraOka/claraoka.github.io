@@ -11,7 +11,18 @@
     font-style: normal;
 
 }
-
+@font-face {
+  font-family: "Epilogue-Italic";
+  src: url("./font/Epilogue-Italic.eot"); /* IE9 Compat Modes */
+  src: url("./font/Epilogue-Italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./font/Epilogue-Italic.otf") format("opentype"), /* Open Type Font */
+    url("./font/Epilogue-Italic.svg") format("svg"), /* Legacy iOS */
+    url("./font/Epilogue-Italic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./font/Epilogue-Italic.woff") format("woff"), /* Modern Browsers */
+    url("./font/Epilogue-Italic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
     font-family: 'Epilogue-Italic';
     src: url('./font/Epilogue-Italic.woff2') format('woff2'),
@@ -361,18 +372,18 @@ footer{
 
 @media(min-width: 1800px){
   img{
-    width: 900px;
+    min-width: 900px;
   }
   .liste{
   width:40%;
   }
 
   video{
-    width: 900px;
+    min-width: 900px;
   }
 
   .projet img{
-    width: 900px;
+    min-width: 900px;
 
   }
 
@@ -380,10 +391,10 @@ footer{
 
 @media(min-width: 1650px){
   img{
-    width: 850px;
+    min-width: 850px;
   }
   .liste{
-  width:40%;
+  min-width:40%;
   }
 
   video{
@@ -391,7 +402,7 @@ footer{
   }
 
   .projet img{
-    width: 850px;
+    min-width: 850px;
 
   }
 
@@ -399,18 +410,18 @@ footer{
 
 @media(min-width: 1550px){
   img{
-    width: 800px;
+    min-width: 800px;
   }
   .liste{
   width:40%;
   }
 
   video{
-    width: 800px;
+    min-width: 800px;
   }
 
   .projet img{
-    width: 800px;
+    min-width: 800px;
 
   }
 
@@ -418,38 +429,36 @@ footer{
 
 @media(min-width: 1450px){
   img{
-    width: 750px;
+    min-width: 750px;
   }
   .liste{
   width:40%;
   }
 
   video{
-    width: 750px;
+    min-width: 750px;
   }
 
   .projet img{
-    width: 750px;
-
+    min-width: 750px;
   }
 
 }
 
-@media(min-width: 1350px){
+@media (min-width: 1350px){
   img{
-    width: 700px;
+    min-width: 700px;
   }
   .liste{
   width:40%;
   }
 
   video{
-    width: 700px;
+    min-width: 700px;
   }
 
   .projet img{
-    width: 700px;
-
+    min-width: 700px;
   }
 
 }
@@ -470,6 +479,7 @@ footer{
   video{
     max-width: 650px;
   }
+
   .projet img{
     max-width: 650px;
     margin-bottom: 30px;
