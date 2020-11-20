@@ -1040,8 +1040,7 @@ font-size: 1.2em;
   }
 
 .projetImage{
-  overflow:visible;
-
+overflow-x: hidden;
 }
 
 }
