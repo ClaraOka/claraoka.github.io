@@ -1023,6 +1023,7 @@ font-size: 1.2em;
   position:relative;
   top:60px;
   left:0px;
+
 }
 
 }
@@ -1038,6 +1039,10 @@ font-size: 1.2em;
     font-size: 1.5em;
   }
 
+.projetImage{
+  overflow:visible;
+
+}
 
 }
 
