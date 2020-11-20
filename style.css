@@ -1039,7 +1039,7 @@ font-size: 1.2em;
     font-size: 1.5em;
   }
 
-.projetImage, .texte, .projet, footer, header{
+.projetImage, .texte, .projet, footer, header, body, .texte h3, .texte p, html {
 overflow-x: hidden;
 }
 
