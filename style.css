@@ -60,6 +60,7 @@ body{
 header{
   position: fixed;
   top:0px;
+  left:0px;
   width:100%;
   height:120px;
   font-family: 'Epilogue-Regular', 'Epilogue', sans-serif;
@@ -67,12 +68,12 @@ header{
   display: flex;
   align-items: baseline;
   justify-content:space-between;
+  padding-left:25px;
   padding-right: 40px;
   z-index:1;
 }
 
 .titre {
-  margin-left:20px;
   font-size: 2.5em;
   color: black;
   font-weight: normal;
@@ -531,6 +532,7 @@ footer{
 
 
 @media (max-width: 1200px) {
+
   .liste{
   width:30%;
   }
@@ -567,7 +569,6 @@ header{
 
 .titre{
   font-size: 2.5em;
-  margin-left:10px;
 }
 
 .soustitre{
@@ -628,8 +629,6 @@ video{
 
 }
 
-
-
 video{
   max-width: 600px;
 }
@@ -644,12 +643,13 @@ video{
 
 @media (max-width: 1000px) {
 
+
 header{
+  padding-left: 15px;
+  padding-right: 25px;
+
 }
 
-.titre{
-  margin-left:10px;
-}
 
 .liste{
 width:30%;
@@ -714,12 +714,10 @@ video{
 
 @media (max-width: 850px) {
 
-header{
-}
+
 
 .titre{
   font-size: 2.2em;
-  margin-left:10px;
 }
 
 .soustitre{
@@ -840,11 +838,10 @@ font-size: 1.3em;
 header{
 height:80px;
 padding-top:10px;
-padding-right:10px;
+padding-right:30px;
 }
 
 .titre {
-  margin-left:10px;
   font-size: 1.2em;
 }
 
@@ -858,7 +855,6 @@ padding-right:10px;
 
 header .apropos{
   font-size: 1em;
-  margin-right: 0px;
 
 }
 
