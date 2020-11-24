@@ -971,7 +971,7 @@ header{
 
 header .apropos{
   font-size: 0.7em;
-  margin-right: 10px;
+  padding-right: 10px;
   padding-left: 10px;
 }
 
@@ -1039,9 +1039,7 @@ font-size: 1.2em;
     font-size: 1.5em;
   }
 
-.projetImage, .texte, .projet, footer, header, body, .texte h3, .texte p, html, .apropos, .soustitre, .titre, .projetImage img {
-overflow-x: hidden;
-}
+
 
 }
 
