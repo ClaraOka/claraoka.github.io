@@ -950,7 +950,6 @@ header{
 
 .soustitre{
   font-size: 0.8em;
-
 }
 
 header .apropos{
@@ -1018,6 +1017,12 @@ font-size: 1.2em;
     font-size: 1.5em;
   }
 
+}
 
+@media (max-width:450px){
 
+.soustitre{
+  max-width:150px;
+
+}
 }
