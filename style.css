@@ -842,7 +842,7 @@ padding-right:30px;
 }
 
 .titre {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .soustitre{
@@ -942,6 +942,7 @@ footer{
 
 header{
   padding-top: 10px;
+  padding-right: 20px;
   height: 60px;
   line-height: 1em;
 }
@@ -955,19 +956,17 @@ header{
 }
 
 .titre {
-  margin-left:10px;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .soustitre{
-  font-size: 0.7em;
+  font-size: 0.8em;
   margin-left:15px;
   margin-right: 20px;
 }
 
 header .apropos{
-  font-size: 0.7em;
-  padding-right: 10px;
+  font-size: 0.8em;
   padding-left: 10px;
 }
 
