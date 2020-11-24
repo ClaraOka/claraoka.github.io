@@ -1018,7 +1018,7 @@ font-size: 1.2em;
   }
 
   .invisible{
-opacity: 0; }
+display: none;}
 
 }
 
