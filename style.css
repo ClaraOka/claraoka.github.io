@@ -1018,8 +1018,7 @@ font-size: 1.2em;
   }
 
   .invisible{
-    display:none;
-  }
+opacity: 0; }
 
 }
 
