@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Epilogue';
-    src: url('Epilogue-Regular.eot');
-    src: url('Epilogue-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Epilogue-Regular.woff2') format('woff2'),
-        url('Epilogue-Regular.woff') format('woff'),
-        url('Epilogue-Regular.ttf') format('truetype'),
-        url('Epilogue-Regular.svg#Epilogue-Regular') format('svg');
+    src: url('./font/Epilogue-Regular.eot');
+    src: url('./font/Epilogue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./font/Epilogue-Regular.woff2') format('woff2'),
+        url('./font/Epilogue-Regular.woff') format('woff'),
+        url('./font/Epilogue-Regular.ttf') format('truetype'),
+        url('./font/Epilogue-Regular.svg#Epilogue-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
