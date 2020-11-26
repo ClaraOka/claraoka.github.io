@@ -309,6 +309,8 @@ line-height: 1.3em;
   font-size: 1.3em;
   line-height: 1.5em;
   color: black;
+  margin:0px;
+  padding-top: 10px;
 }
 
 .texte p{
@@ -528,10 +530,7 @@ footer{
   .liste{
   width:30%;
   }
-  .texte p{
-    font-size: 0.9em;
-    line-height: 1.3em;
-  }
+
   img{
     max-width: 650px;
   }
@@ -543,9 +542,7 @@ footer{
   .projet img{
     max-width: 650px;
     margin-bottom: 30px;
-
   }
-
 
 }
 
@@ -587,10 +584,6 @@ header .apropos{
 width:30%;
 }
 
-.image{
-  top: 120px;
-  right:30px;
-}
 
 img{
   max-width: 600px;
@@ -611,7 +604,7 @@ video{
 .projetImage{
   width: 70%;
   position:absolute;
-  top:120px;
+  top:130px;
   right:30px;
 }
 
@@ -668,17 +661,18 @@ img{
 
 .texte h3{
   font-size: 1.1em;
+  line-height: 1.3em;
 }
 
 .texte p{
   font-size: 0.9em;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 
 
 .projetImage{
   width: 70%;
-  top:120px;
+  top:130px;
   right:20px;
 }
 
@@ -747,10 +741,7 @@ img{
 
 }
 
-.texte p{
-  font-size: 0.9em;
-  line-height: 1.5em;
-}
+
 
 .projet{
   padding-left:10px;
@@ -767,7 +758,7 @@ img{
 
 .projetImage{
   width: 70%;
-  top:120px;
+  top:110px;
   right:20px;
 }
 
@@ -834,11 +825,15 @@ padding-right:30px;
 }
 
 .titre {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .soustitre{
   font-size: 1em;
+}
+
+.invisible{
+display: none;
 }
 
 .headerApropos{
@@ -860,7 +855,7 @@ header .apropos{
 .menu h3{
   font-size: 1.3em;
   line-height: 1.5em;
-  max-width: 100%;
+  width: 100%;
 }
 
 .image{
@@ -884,6 +879,7 @@ padding-right:20px;
 
 .texte h3{
   font-size: 1.3em;
+  line-height: 1.5em;
 }
 
 .texte p{
@@ -945,17 +941,6 @@ header{
   top:70px;
 }
 
-.titre {
-  font-size: 0.9em;
-}
-
-.soustitre{
-  font-size: 0.8em;
-}
-
-header .apropos{
-  font-size: 0.8em;
-}
 
 
 .projet .texte{
@@ -968,7 +953,7 @@ header .apropos{
 
 .texte p{
   font-size: 0.9em;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 .headerApropos .apropos{
@@ -1018,8 +1003,8 @@ font-size: 1.2em;
     font-size: 1.5em;
   }
 
-  .invisible{
-display: none;}
+
+
 
 }
 
@@ -1027,6 +1012,5 @@ display: none;}
 
 .soustitre{
   max-width:150px;
-
 }
 }
