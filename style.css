@@ -902,6 +902,9 @@ padding-right:20px;
   margin-bottom: 10px;
 }
 
+
+
+
 video{
   max-width: 100%;
   float: left;
@@ -991,6 +994,10 @@ font-size: 1.2em;
   position:relative;
   top:70px;
   left:0px;
+}
+
+.projet img{
+  max-width:100%;
 }
 
 
