@@ -1018,7 +1018,17 @@ font-size: 1.2em;
 
 
 @media (max-width:500px){
+  .titre {
+    font-size: 0.8em;
+  }
 
+  .soustitre{
+    font-size: 0.8em;
+  }
+
+  header .apropos{
+    font-size: 0.8em;
+  }
   .headerApropos .apropos{
     font-size: 1.5em;
   }
