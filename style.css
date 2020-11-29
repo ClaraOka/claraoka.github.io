@@ -832,6 +832,10 @@ padding-right:30px;
   font-size: 1em;
 }
 
+header .apropos{
+  font-size: 1em;
+}
+
 .invisible{
 display: none;
 }
@@ -840,9 +844,7 @@ display: none;
   padding-top: 10px;
 }
 
-header .apropos{
-  font-size: 1em;
-}
+
 
 .liste{
   width: 100%;
@@ -935,6 +937,18 @@ header{
   height: 70px;
   line-height: 1em;
 }
+
+.titre {
+  font-size: 0.9em;
+}
+
+.soustitre{
+  font-size: 0.9em;
+}
+
+header .apropos{
+  font-size: 0.9em;
+}
 .menu{
   top:70px;
 }
@@ -1000,8 +1014,6 @@ font-size: 1.2em;
   max-width:100%;
 }
 
-
-
 }
 
 
@@ -1010,15 +1022,4 @@ font-size: 1.2em;
   .headerApropos .apropos{
     font-size: 1.5em;
   }
-
-
-
-
-}
-
-@media (max-width:450px){
-
-.soustitre{
-  max-width:150px;
-}
 }
