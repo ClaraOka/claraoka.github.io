@@ -150,8 +150,12 @@ h3:hover ~ .fond{
 display: none;
 }
 
+.journal:hover + .secret{
+opacity: 1;
+}
 
-.plaie:hover + .secret{
+
+.variations:hover + .secret{
 opacity: 1;
 }
 
