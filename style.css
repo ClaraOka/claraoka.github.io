@@ -292,6 +292,33 @@ line-height: 1.3em;
 }
 
 
+.artworks .vertical img{
+    max-width: 300px;
+    margin-bottom:30px;
+}
+
+.artworks .horizontal img{
+    max-width: 500px;
+    margin-bottom:30px;
+}
+
+
+.image-1{
+margin-left:10%;
+}
+
+.image-2{
+margin-left: 15%;
+}
+
+.image-3{
+  margin-left:40%;
+}
+
+.image-4{
+    margin-left:60%;
+}
+
 
 /*———————————PROJETS—————————————*/
 
