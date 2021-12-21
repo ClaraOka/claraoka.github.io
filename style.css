@@ -1090,4 +1090,15 @@ font-size: 1.2em;
   .headerApropos .apropos{
     font-size: 1.5em;
   }
+
+  .artworks .vertical img{
+      max-width: 100px;
+      margin-bottom:20px;
+  }
+
+  .artworks .horizontal img{
+      max-width: 200px;
+      margin-bottom:20px;
+  }
+
 }
