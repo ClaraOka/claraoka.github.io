@@ -486,6 +486,16 @@ footer{
     min-width: 800px;
   }
 
+  .artworks .vertical img{
+      max-width: 300px;
+      margin-bottom:30px;
+  }
+
+  .artworks .horizontal img{
+      max-width: 600px;
+      margin-bottom:30px;
+  }
+
 }
 
 @media(min-width: 1550px){
@@ -509,6 +519,16 @@ footer{
   .projet img{
     min-width: 850px;
 
+  }
+
+  .artworks .vertical img{
+      max-width: 300px;
+      margin-bottom:30px;
+  }
+
+  .artworks .horizontal img{
+      max-width: 600px;
+      margin-bottom:30px;
   }
 
 }
@@ -537,6 +557,16 @@ footer{
 
   }
 
+  .artworks .vertical img{
+      max-width: 300px;
+      margin-bottom:30px;
+  }
+
+  .artworks .horizontal img{
+      max-width: 600px;
+      margin-bottom:30px;
+  }
+
 }
 
 @media(min-width: 1800px){
@@ -559,6 +589,16 @@ footer{
   .projet img{
     min-width: 1000px;
 
+  }
+
+  .artworks .vertical img{
+      max-width: 300px;
+      margin-bottom:30px;
+  }
+
+  .artworks .horizontal img{
+      max-width: 600px;
+      margin-bottom:30px;
   }
 
 }
@@ -588,6 +628,15 @@ footer{
 
   .imagePortrait img{
       min-width: 200px;
+  }
+  .artworks .vertical img{
+      max-width: 300px;
+      margin-bottom:30px;
+  }
+
+  .artworks .horizontal img{
+      max-width: 600px;
+      margin-bottom:30px;
   }
 
 }
