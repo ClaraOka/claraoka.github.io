@@ -1046,6 +1046,16 @@ header .apropos{
   padding-right:20px;
 }
 
+.artworks .vertical img{
+    max-width: 100px;
+    margin-bottom:20px;
+}
+
+.artworks .horizontal img{
+    max-width: 200px;
+    margin-bottom:20px;
+}
+
 .left{
   width: 100%;
   margin-top:70px;
@@ -1091,14 +1101,6 @@ font-size: 1.2em;
     font-size: 1.5em;
   }
 
-  .artworks .vertical img{
-      max-width: 100px;
-      margin-bottom:20px;
-  }
 
-  .artworks .horizontal img{
-      max-width: 200px;
-      margin-bottom:20px;
-  }
 
 }
