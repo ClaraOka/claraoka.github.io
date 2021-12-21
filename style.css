@@ -452,6 +452,16 @@ footer{
 
   }
 
+  .artworks .vertical img{
+      max-width: 300px;
+      margin-bottom:30px;
+  }
+
+  .artworks .horizontal img{
+      max-width: 600px;
+      margin-bottom:30px;
+  }
+
 }
 
 @media(min-width: 1450px){
