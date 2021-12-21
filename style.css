@@ -843,6 +843,16 @@ display:none
   line-height: 0.5em;
 }
 
+.artworks .vertical img{
+    max-width: 95px;
+    margin-bottom:10px;
+}
+
+.artworks .horizontal img{
+    max-width: 190px;
+    margin-bottom:10px;
+}
+
 .left{
   width: 80%;
   float:left;
@@ -1046,15 +1056,7 @@ header .apropos{
   padding-right:20px;
 }
 
-.artworks .vertical img{
-    max-width: 100px;
-    margin-bottom:20px;
-}
 
-.artworks .horizontal img{
-    max-width: 200px;
-    margin-bottom:20px;
-}
 
 .left{
   width: 100%;
