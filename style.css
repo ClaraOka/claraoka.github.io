@@ -453,12 +453,12 @@ footer{
   }
 
   .artworks .vertical img{
-      max-width: 300px;
+      max-width: 250px;
       margin-bottom:30px;
   }
 
   .artworks .horizontal img{
-      max-width: 600px;
+      max-width: 500px;
       margin-bottom:30px;
   }
 
@@ -822,6 +822,18 @@ video{
 
 .left{
   margin-top:100px;
+}
+
+
+
+.artworks .vertical img{
+    max-width: 120px;
+    margin-bottom:10px;
+}
+
+.artworks .horizontal img{
+    max-width: 240px;
+    margin-bottom:10px;
 }
 
 }
