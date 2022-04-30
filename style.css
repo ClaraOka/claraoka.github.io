@@ -232,14 +232,7 @@ opacity: 1;
   background-color: rgb(242,242,229);
 }
 
-.headerApropos .apropos{
-  font-size: 2em;
-}
 
-.headerApropos .apropos:hover{
-text-decoration: none;
-border-bottom: 0em;
-}
 
 .texteApropos{
   font-family: 'Epilogue', sans-serif;
