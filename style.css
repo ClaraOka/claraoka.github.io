@@ -29,8 +29,6 @@
 
 
 
-
-
 html {
   font-size: 16px;
 }
@@ -45,17 +43,17 @@ body{
  font-family: 'Epilogue';
  overflow-x: hidden;
  background-color: rgb(245,245,245);
-
+margin:0px;
 }
 
 header{
   position: fixed;
-  top:0px;
+  padding-top:20px;
+  top: 0px;
   left:0px;
   width:100%;
-  height:120px;
+  height:70px;
   font-family: 'Epilogue', sans-serif;
-  background-color: rgb(245,245,245);
   display: flex;
   align-items: baseline;
   justify-content:space-between;
@@ -65,24 +63,21 @@ header{
 }
 
 .titre {
-  font-size: 2.5em;
+  font-size: 0.9em;
   color: black;
   font-weight: normal;
-
 }
 
 .soustitre{
-  font-size: 1.1em;
+  font-size: 0.9em;
   color: black;
   font-weight: normal;
-
 }
 
 header .apropos{
-  font-size: 1.1em;
+  font-size: 0.9em;
   font-family: 'Epilogue', sans-serif;
   font-weight: normal;
-
 }
 
 a{
@@ -90,25 +85,37 @@ a{
   color: black;
 }
 
+.apropos{
+  margin-bottom: 20px;
+}
 
+header a:hover {
+  border-bottom: 0.08em solid black;
+}
 
-header .apropos:hover {
-border-bottom: 0.08em solid black;
-  }
-
+.liste{
+  width:50%;
+}
 
 
 /*———————————INDEX——————————*/
+
+
+
+.liste{
+  width:30%;
+}
 
 .menu{
   width: 100%;
   padding-left:20px;
   padding-right:10px;
-  position: absolute;
-  top:120px;
+  position: relative;
+  top:100px;
   left:5px;
   overflow:scroll;
   margin-bottom: 50px;
+  width:35%;
 }
 
 
@@ -116,13 +123,17 @@ border-bottom: 0.08em solid black;
   border-bottom:5px;
   font-family:'Epilogue', sans-serif;
   font-weight: normal;
-  font-size: 1.3em;
-  line-height: 1.3em;
+  font-size: 0.9em;
   color: black;
   max-width: 600px;
   margin:0px;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.menu p{
+  font-size: 0.9em;
+  line-height: 1.3em;
 }
 
 
@@ -131,9 +142,18 @@ border-bottom: 0.08em solid black;
   cursor: pointer;
 }
 
+.navabout a:hover {
+  border-bottom: 0.08em solid black;
+  cursor: pointer;
+}
+
+.date{
+  margin-bottom: 5px;
+}
+
 .image{
   position: fixed;
-  top: 130px;
+  top: 100px;
   right:30px;
 }
 
@@ -150,94 +170,54 @@ h3:hover ~ .fond{
 display: none;
 }
 
-.journal:hover + .secret{
+h3:hover + .texteDemarche{
+display: none;
+}
+
+.revele:hover + .secret{
 opacity: 1;
 }
 
-
-.variations:hover + .secret{
-opacity: 1;
+.texteDemarche{
+  width:55%;
+  height:450px;
+  position:fixed;
+  top: 120px;
+  right:20px;
+  overflow-y: scroll;
+  z-index: -1;
+  float:right;
 }
 
-.leclos:hover + .secret{
-opacity: 1;
-z-index: 2;
-}
-
-.antoine:hover + .secret{
-opacity: 1;
-z-index: 2;
+.texteDemarche p{
+  font-size : 0.9em;
+  line-height: 1.3em;
 }
 
 
-.jardin:hover + .secret{
-opacity: 1;
+.texteArt{
+  width:40%;
+padding-left: 20px;
+padding-top: 100px;
+padding-bottom: 120px;
 }
 
-.lobservatoire:hover + .secret{
-opacity: 1;
-}
+.texteArt p{
+  font-size: 0.9em;
+  color: black;
 
-.lechapee:hover + .secret{
-opacity: 1;
-}
-
-.nuance:hover + .secret{
-opacity: 1;
-}
-
-.laville:hover + .secret{
-opacity: 1;
-}
-
-.cinema:hover + .secret{
-opacity: 1;
-}
-
-.connexion:hover + .secret{
-opacity: 1;
-}
-
-.lavilla:hover + .secret{
-opacity: 1;
-}
-
-.lunivercite:hover + .secret{
-opacity: 1;
-}
-
-.laforet:hover + .secret{
-opacity: 1;
-}
-
-.coudasse:hover + .secret{
-opacity: 1;
-}
-
-.laferme:hover + .secret{
-opacity: 1;
-}
-
-.memo:hover + .secret{
-opacity: 1;
+  margin:0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 /*———————————A PROPOS—————————————*/
 
-.bodyApropos{
-  background-color: rgb(242,242,229);
-}
-
-.headerApropos{
-  background-color: rgb(242,242,229);
-}
-
-
 
 .texteApropos{
   font-family: 'Epilogue', sans-serif;
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 0.9em;
+  line-height: 1.3em;
 }
 
 
@@ -255,22 +235,21 @@ opacity: 1;
 
 .left h3{
 font-weight: normal;
-font-size: 1.3em;
+font-size: 0.9em;
 line-height: 1.3em;
-
 }
 
 
 .right{
-  margin-top:140px;
-  width:40%;
+  margin-top:100px;
+  width:35%;
   float:right;
 }
 
 
 .contact{
   font-family: 'Epilogue', sans-serif;
-  font-size: 1.2em;
+  font-size: 0.9em;
   line-height: 1.6em;
   color: black;
 }
@@ -286,7 +265,6 @@ line-height: 1.3em;
 
 
 
-
 /*———————————PROJETS—————————————*/
 
 .projet{
@@ -295,17 +273,18 @@ line-height: 1.3em;
   display: block;
 }
 
-.projet .texte{
+.projet .texte {
   width: 32%;
   position: fixed;
-  top:120px;
+  top:100px;
+  padding-left:10px;
 }
 
 .texte h3{
   font-family: 'Epilogue', sans-serif;
   font-weight: normal;
-  font-size: 1.3em;
-  line-height: 1.5em;
+  font-size: 1.2em;
+  line-height: 1.2em;
   color: black;
   margin:0px;
   padding-top: 10px;
@@ -313,8 +292,8 @@ line-height: 1.3em;
 
 .texte p{
   font-family: 'Epilogue', sans-serif;
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 0.9em;
+  line-height: 1.3em;
   color: black;
 }
 
@@ -325,12 +304,10 @@ line-height: 1.3em;
 .projetImage{
   width: 60%;
   position:absolute;
-  top:130px;
+  top:60px;
   right:30px;
   padding-bottom: 20px;
-
 }
-
 
 .projet img{
   max-width: 700px;
@@ -355,12 +332,18 @@ video{
 }
 
 footer{
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 0em;
   padding-left:20px;
-  position: fixed;
+  position:fixed;
   bottom:0px;
   font-weight: normal;
+}
+
+.navabout{
+  position: fixed;
+  bottom: 0px;
+  right:30px;
 }
 
 /*———————————ARTWORKS—————————————*/
@@ -368,14 +351,12 @@ footer{
 .texteartworks{
 max-width: 800px;
 text-align: center;
-  line-height: 1.3em;
-
+line-height: 1.3em;
 }
 
 .texteartworks a{
   text-decoration: underline;
 }
-
 
 
 .artworks .vertical img{
@@ -391,14 +372,14 @@ text-align: center;
 .artworks{
   width : 100%;
   display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-top:120px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top:120px;
 }
 
 .artwork{
   margin-left:1%;
-  margin-right : 1%;
+  margin-right: 1%;
 }
 
 
@@ -424,7 +405,6 @@ margin-top:120px;
   text-align: center;
   top: 40%;
   transform: translateY(-50%);
-
   left: 50%;
   transform: translateX(-50%);
   opacity: 0;
@@ -446,7 +426,7 @@ margin-top:120px;
     min-width: 700px;
   }
   .liste{
-  width:40%;
+  width:35%;
   }
 
   video{
@@ -473,6 +453,10 @@ margin-top:120px;
       margin-bottom:30px;
   }
 
+  .liste{
+  width:35%;
+  }
+
 }
 
 @media(min-width: 1450px){
@@ -486,7 +470,7 @@ margin-top:120px;
     min-width: 800px;
   }
   .liste{
-  width:40%;
+  width:35%;
   }
 
   video{
@@ -520,7 +504,7 @@ margin-top:120px;
     min-width: 850px;
   }
   .liste{
-  width:40%;
+  width:35%;
   }
 
   video{
@@ -556,7 +540,7 @@ margin-top:120px;
     min-width: 900px;
   }
   .liste{
-  min-width:40%;
+  min-width:35%;
   }
 
   video{
@@ -590,7 +574,7 @@ margin-top:120px;
   min-width: 1000px;
   }
   .liste{
-  width:40%;
+  width:35%;
   }
 
   video{
@@ -625,7 +609,7 @@ margin-top:120px;
   min-width: 850px;
   }
   .liste{
-  width:40%;
+  width:35%;
   }
 
   video{
@@ -684,32 +668,22 @@ header{
   height:100px;
 }
 
-.titre{
-  font-size: 2.5em;
-}
-
-.soustitre{
-  font-size: 1.1em;
-}
-
-header .apropos{
-  font-size: 1.1em;
-}
-
-
 .menu{
   top:100px;
 }
 
+.texteDemarche{
+  top:100px;
+}
+
 .menu h3{
-  font-size: 1.1em;
+  font-size: 1em;
   line-height: 1.2em;
-  padding-bottom: 12px;
-  padding-top: 12px;
+
 }
 
 .liste{
-width:30%;
+width:35%;
 }
 
 
@@ -732,14 +706,13 @@ video{
 .projetImage{
   width: 70%;
   position:absolute;
-  top:130px;
+  top:100px;
   right:30px;
 }
 
 .projet img{
   max-width: 600px;
   margin-bottom: 30px;
-
 }
 
 video{
@@ -771,21 +744,21 @@ video{
 header{
   padding-left: 15px;
   padding-right: 25px;
-
 }
 
 
 .liste{
-width:30%;
+width:35%;
 }
+
 .image{
   right:20px;
 }
 
 .menu{
   padding-left:10px;
-
 }
+
 
 img{
   max-width: 550px;
@@ -794,6 +767,7 @@ img{
 .projet{
   padding-left:10px;
 }
+
 .projet .texte{
   width: 30%;
 }
@@ -811,7 +785,7 @@ img{
 
 .projetImage{
   width: 70%;
-  top:130px;
+  top:60px;
   right:20px;
 }
 
@@ -836,7 +810,6 @@ video{
 }
 
 
-
 .artworks .vertical img{
     max-width: 120px;
     margin-bottom:10px;
@@ -851,18 +824,8 @@ video{
 
 @media (max-width: 850px) {
 
-
-
-.titre{
-  font-size: 2.2em;
-}
-
-.soustitre{
-  font-size: 1em;
-}
-
 header .apropos{
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .liste{
@@ -870,10 +833,8 @@ width:30%;
 }
 
 .menu h3{
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 1.2em;
-  padding-bottom: 10px;
-  padding-top: 10px;
 }
 
 
@@ -882,16 +843,14 @@ img{
 }
 
 .image{
-  top: 120px;
+  top: 100px;
   right:20px;
 }
 
 .texte h3{
   font-size: 1em;
-  line-height: 1.2em;
-
+  line-height: 1em;
 }
-
 
 
 .projet{
@@ -927,14 +886,11 @@ display:none
 
 
 .texteApropos{
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 0.9em;
+  line-height: 1.3em;
 }
 
-.texteApropos h3{
-  font-size: 1.3em;
-  line-height: 0.5em;
-}
+
 
 .artworks .vertical img{
     max-width: 95px;
@@ -953,14 +909,10 @@ display:none
   padding-left:20px;
 }
 
-.left h3{
-font-weight: normal;
-font-size: 1.3em;
-}
 
 .contact{
-  font-size: 1.1em;
-  line-height: 1.4em;
+  font-size: 0.9em;
+  line-height: 1.3em;
 }
 
 .droits{
@@ -974,8 +926,20 @@ font-size: 1.3em;
   display: block;
   float:left;
 }
+
+.texteDemarche{
+  display: block;
+  float:left;
 }
 
+}
+
+@media (max-width: 750px) {
+
+  .liste{
+    width: 30%;
+  }
+}
 
 @media (max-width: 750px) {
 
@@ -994,7 +958,7 @@ padding-right:30px;
 }
 
 header .apropos{
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .invisible{
@@ -1005,20 +969,23 @@ display: none;
   padding-top: 10px;
 }
 
-
-
 .liste{
   width: 100%;
 }
+
 .menu{
   top:80px;
+  width:100%;
+}
+
+.texteDemarche{
+  top: 80px;
 }
 
 
 .menu h3{
-  font-size: 1.3em;
-  line-height: 1.5em;
-  width: 100%;
+  font-size: 0.9em;
+  line-height: 1.3em;
 }
 
 .image{
@@ -1029,7 +996,7 @@ display: none;
   width: 100%;
   position: absolute;
   padding-left: 0px;
-padding-right:20px;
+  padding-right:20px;
 }
 
 .projet .texte{
@@ -1037,17 +1004,16 @@ padding-right:20px;
   position: relative;
   top:80px;
   padding-left:10px;
-
 }
 
 .texte h3{
-  font-size: 1.3em;
-  line-height: 1.5em;
+  font-size: 1em;
+  line-height: 1.3em;
 }
 
 .texte p{
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 0.9em;
+  line-height: 1.3em;
 }
 
 
@@ -1058,14 +1024,11 @@ padding-right:20px;
   left:0px;
 }
 
-
 .projet img{
   max-width: 100%;
   float: left;
   margin-bottom: 10px;
 }
-
-
 
 
 video{
@@ -1077,14 +1040,11 @@ video{
 footer{
   padding-left:20px;
 }
-.headerApropos .apropos{
-  font-size: 1.8em;
-}
+
 
 .left{
   margin-top:80px;
 }
-
 
 }
 
@@ -1110,46 +1070,41 @@ header{
 header .apropos{
   font-size: 0.9em;
 }
+
+.menu{
+  font-size: 0.9em;
+}
+
+.texteDemarche{
+  font-size: 0.8em;
+}
+
 .menu{
   top:70px;
 }
 
+.texteDemarche{
+  top:70px;
+}
 
 .projet .texte{
   top:70px;
 }
-
-
 
 .projet .texte{
   width: 100%;
 }
 
-.texte h3{
-  font-size: 1.1em;
-}
-
 .texte p{
-  font-size: 0.9em;
-  line-height: 1.4em;
-}
-
-.headerApropos .apropos{
-  font-size: 1.5em;
-}
-
-.texteApropos h3{
-  font-size: 1.4em;
-  line-height: 0.5em;
+  font-size: 0.8em;
+  line-height: 1.3em;
 }
 
 .texteApropos{
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 0.8em;
+  line-height: 1.3em;
   padding-right:20px;
 }
-
-
 
 .left{
   width: 100%;
@@ -1157,20 +1112,17 @@ header .apropos{
   padding-left:10px;
 }
 
-.left h3{
-font-size: 1.2em;
-}
 
 .contact{
-  font-size: 1.1em;
-  line-height: 1.6em;
+  font-size: 0.8em;
+  line-height: 1.3em;
 }
 
 .projetImage{
   width: 100%;
   position:relative;
-  top:70px;
-  left:0px;
+  top: 70px;
+  left: 0px;
 }
 
 .projet img{
@@ -1193,6 +1145,13 @@ font-size: 1.2em;
     font-size: 0.8em;
   }
 
+  .menu h3{
+    font-size: 0.9em;
+  }
+
+.texteDemarche p{
+  font-size: 0.8em;
+}
 
 
 }
