@@ -204,11 +204,17 @@ padding-bottom: 120px;
 
 .texteArt p{
   font-size: 0.9em;
+  line-height: 1.35em;
+
   color: black;
 
   margin:0px;
   padding-bottom: 5px;
   padding-top: 5px;
+}
+
+.legende{
+  font-size: 0.6em;
 }
 
 /*———————————A PROPOS—————————————*/
@@ -643,6 +649,17 @@ line-height: 1.3em;
   width:30%;
   }
 
+  .texteArt{
+    width:30%;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+
+  .texteArt p{
+    font-size : 0.8em;
+  }
+
+
   img{
     max-width: 650px;
   }
@@ -685,6 +702,7 @@ header{
 .liste{
 width:35%;
 }
+
 
 
 img{
@@ -852,6 +870,16 @@ img{
   line-height: 1em;
 }
 
+.texteArt{
+  width:30%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.texteArt p{
+  font-size : 0.7em;
+}
+
 
 .projet{
   padding-left:10px;
@@ -982,6 +1010,15 @@ display: none;
   top: 80px;
 }
 
+.texteArt{
+  width:80%;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.texteArt p{
+  font-size: 0.9em;
+}
 
 .menu h3{
   font-size: 0.9em;
@@ -1079,6 +1116,12 @@ header .apropos{
   font-size: 0.8em;
 }
 
+.texteArt{
+  width:80%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
 .menu{
   top:70px;
 }
@@ -1151,6 +1194,12 @@ header .apropos{
 
 .texteDemarche p{
   font-size: 0.8em;
+}
+
+.texteArt{
+  width:80%;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 
