@@ -113,7 +113,6 @@ header a:hover {
   position: relative;
   top:100px;
   left:5px;
-  overflow:scroll;
   padding-bottom: 100px;
   width:35%;
 }
@@ -203,8 +202,8 @@ padding-bottom: 120px;
 }
 
 .texteArt p{
-  font-size: 0.9em;
-  line-height: 1.35em;
+  font-size: 0.8em;
+  line-height: 1.3em;
 
   color: black;
 
@@ -233,6 +232,7 @@ padding-bottom: 120px;
   float:left;
   margin-top:120px;
   padding-left:20px;
+
 }
 
 .left a {
@@ -250,6 +250,8 @@ line-height: 1.3em;
   margin-top:100px;
   width:35%;
   float:right;
+  padding-bottom: 100px;
+
 }
 
 
@@ -795,10 +797,7 @@ img{
   line-height: 1.3em;
 }
 
-.texte p{
-  font-size: 0.9em;
-  line-height: 1.4em;
-}
+
 
 
 .projetImage{
@@ -1044,10 +1043,7 @@ display: none;
   line-height: 1.3em;
 }
 
-.texte p{
-  font-size: 0.9em;
-  line-height: 1.3em;
-}
+
 
 
 .projetImage{
@@ -1134,14 +1130,9 @@ header .apropos{
   width: 100%;
 }
 
-.texte p{
-  font-size: 0.8em;
-  line-height: 1.3em;
-}
+
 
 .texteApropos{
-  font-size: 0.8em;
-  line-height: 1.3em;
   padding-right:20px;
 }
 
