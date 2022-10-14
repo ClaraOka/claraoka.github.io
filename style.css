@@ -87,11 +87,7 @@ header{
   font-weight: normal;
 }
 
-header .apropos{
-  font-size: 0.9em;
-  font-family: 'Epilogue', sans-serif;
-  font-weight: normal;
-}
+
 
 a{
   text-decoration: none;
@@ -368,7 +364,7 @@ footer{
 
 .navabout{
   position: fixed;
-  bottom: 0px;
+  bottom: 30px;
   right:30px;
 }
 
@@ -859,9 +855,7 @@ video{
 
 @media (max-width: 850px) {
 
-header .apropos{
-  font-size: 0.9em;
-}
+
 
 .liste{
 width:30%;
@@ -996,17 +990,10 @@ padding-right:30px;
   font-size: 1em;
 }
 
-header .apropos{
-  font-size: 0.9em;
-}
-
 .invisible{
 display: none;
 }
 
-.headerApropos{
-  padding-top: 10px;
-}
 
 .liste{
   width: 100%;
@@ -1119,9 +1106,6 @@ header{
   font-size: 0.9em;
 }
 
-header .apropos{
-  font-size: 0.9em;
-}
 
 .menu{
   font-size: 0.9em;
@@ -1198,9 +1182,7 @@ header .apropos{
     font-size: 0.8em;
   }
 
-  header .apropos{
-    font-size: 0.8em;
-  }
+
 
   .menu h3{
     font-size: 0.9em;
