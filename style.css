@@ -994,6 +994,10 @@ padding-right:30px;
 display: none;
 }
 
+.secret{
+display: none;
+}
+
 
 .liste{
   width: 100%;
