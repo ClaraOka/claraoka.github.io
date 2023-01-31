@@ -145,6 +145,7 @@ header a:hover {
 }
 
 
+
 .menu a:hover {
   border-bottom: 0.08em solid black;
   cursor: pointer;
@@ -213,9 +214,7 @@ padding-bottom: 120px;
 .texteArt p{
   font-size: 0.8em;
   line-height: 1.3em;
-
   color: black;
-
   margin:0px;
   padding-bottom: 5px;
   padding-top: 5px;
@@ -236,7 +235,7 @@ padding-bottom: 120px;
 
 .bold{
 
-  border-bottom: 0.09em solid black;
+  /*border-bottom: 0.09em solid black;*/
 
 }
 
@@ -361,6 +360,13 @@ footer{
   bottom:0px;
   font-weight: normal;
 }
+
+footer p {
+  font-family:'Epilogue', sans-serif;
+  font-size: 0.9em;
+}
+
+
 
 .navabout{
   position: fixed;
