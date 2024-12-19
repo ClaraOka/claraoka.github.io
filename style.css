@@ -490,7 +490,7 @@ line-height: 1.3em;
 @media(min-width: 1450px){
 
   .image{
-    right:130px;
+    right:30px;
   }
 
 
@@ -524,7 +524,7 @@ line-height: 1.3em;
 @media(min-width: 1550px){
 
   .image{
-    right:180px;
+    right:30px;
   }
 
 
@@ -561,7 +561,7 @@ line-height: 1.3em;
 @media(min-width: 1650px){
 
   .image{
-    right:230px;
+    right:30px;
   }
 
   img{
@@ -595,7 +595,7 @@ line-height: 1.3em;
 @media(min-width: 1800px){
 
 .image{
-  right:330px;
+  right:30px;
 }
 
   img{
@@ -630,7 +630,7 @@ line-height: 1.3em;
 @media(min-width: 1900px){
 
 .image{
-  right:180px;
+  right:30px;
 }
 
   img{
@@ -681,6 +681,10 @@ line-height: 1.3em;
     font-size : 0.8em;
   }
 
+  .image{
+    right:20px;
+  }
+
 
   img{
     max-width: 650px;
@@ -711,6 +715,10 @@ header{
   top:100px;
 }
 
+.image{
+  right:20px;
+}
+
 .texteDemarche{
   top:100px;
 }
@@ -729,6 +737,10 @@ width:35%;
 
 img{
   max-width: 600px;
+}
+
+.image{
+  right:20px;
 }
 
 video{
