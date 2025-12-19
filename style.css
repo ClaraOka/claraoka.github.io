@@ -695,7 +695,7 @@ label{
 
 
 .item {
-  flex: 0 0 20%;    /* chaque image prend 1/4 de la largeur */
+  flex: 0 0 25%;    /* chaque image prend 1/4 de la largeur */
 margin:0px;
 opacity: 1;              /* visible par défaut */
 transform: translateY(0); /* position normale */
