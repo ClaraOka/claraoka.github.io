@@ -694,6 +694,14 @@ label{
 }
 
 
+.item {
+  flex: 0 0 30%;    /* chaque image prend 1/4 de la largeur */
+margin:0px;
+opacity: 1;              /* visible par défaut */
+transform: translateY(0); /* position normale */
+transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
 .invisible{
 display: none;
 }
