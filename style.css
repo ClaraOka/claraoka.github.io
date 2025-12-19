@@ -669,7 +669,12 @@ font-size: 0.8em;
   font-size: 1em;
 }
 
+.intro p {
+  width:100%;
+}
+
 .intro{
+
   padding-top: 50px;
   gap: 10px; /* espace entre les paragraphes */
   padding-right:20px;
@@ -776,4 +781,11 @@ footer{
   margin-top:80px;
 }
 
+}
+
+@media (max-width: 550px) {
+.intro{
+    display: block;
+    width:70%;
+}
 }
