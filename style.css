@@ -669,6 +669,18 @@ font-size: 0.8em;
   font-size: 1em;
 }
 
+.intro{
+  padding-top: 50px;
+  gap: 10px; /* espace entre les paragraphes */
+  padding-right:20px;
+  font-size: 0.6em;
+}
+
+label{
+  font-size: 0.6em;
+}
+
+
 .invisible{
 display: none;
 }
