@@ -661,6 +661,11 @@ padding-right:30px;
 font-size: 0.8em;
 }
 
+header h1{
+  font-size: 0.9em;
+  line-height: 0.8em;
+}
+
 .titre {
   font-size: 1em;
 }
@@ -784,8 +789,14 @@ footer{
 }
 
 @media (max-width: 550px) {
+
+  header h1{
+    font-size: 0.8em;
+    line-height: 0.8em;
+  }
+
 .intro{
     display: block;
-    width:70%;
+    width:100%;
 }
 }
